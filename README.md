@@ -48,7 +48,7 @@ memory-forensics-incident-response/
 │
 ├── analysis/
 │   ├── memory_image/
-│   │   └── 20250602.mem
+│   │   └── 20250602.mem(for security purpose not uploaded)
 │   └── volatility_outputs/
 │       ├── cmdline.txt
 │       ├── pslist.txt

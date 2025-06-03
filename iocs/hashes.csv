@@ -1,0 +1,9 @@
+Type,Value,Source
+File Path,C:\InfectionSimulation\mimikatz.exe,cmdline.txt
+Scheduled Task,SystemUpdater,schedtasks.txt
+Injected Proc,splunkd.exe (PID 3116),malfind
+Memory Segment,0x22ae5b60000 – 0x22ae5b6ffff,malfind
+NTLM Hash,9218809b443d9dd59bcc9efd18572af9,Mimikatz
+NTLM Hash,58a478135a93ac3bf058a5ea0e8fdb71,Mimikatz
+SHA256 (exe),8d91fa5f2f7e404a48bc9e07be331364264a9b843ea9c1f3a31fa1b4abebd9bc,certutil hash
+SHA256 (mem),1256e83e726d2c647b8bfe66d3c7332a92f8a4b7f88c47e2b90d9a7bccefef2d,memory capture

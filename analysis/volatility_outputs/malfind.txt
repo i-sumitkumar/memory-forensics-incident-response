@@ -1,0 +1,2771 @@
+Volatility 3 Framework 2.26.2
+
+PID	Process	Start VPN	End VPN	Tag	Protection	CommitCharge	PrivateMemory	File output	Notes	Hexdump	Disasm
+
+3116	splunkd.exe	0x22ae5b60000	0x22ae5b6ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+c0 11 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+53 56 57 41 57 41 56 48 89 cb 4c 8b 8c 24 70 ff SVWAWAVH..L..$p.
+ff ff 48 81 ec 90 00 00 00 48 8b 43 10 48 83 e8 ..H......H.C.H..
+01 48 89 44 24 68 48 89 44 24 70 48 89 44 24 78 .H.D$hH.D$pH.D$x	
+0x22ae5b60000:	rcl	byte ptr [rcx], 0
+0x22ae5b60003:	add	byte ptr [rax], al
+0x22ae5b60005:	add	byte ptr [rax], al
+0x22ae5b60007:	add	byte ptr [rax], al
+0x22ae5b60009:	add	byte ptr [rax], al
+0x22ae5b6000b:	add	byte ptr [rax], al
+0x22ae5b6000d:	add	byte ptr [rax], al
+0x22ae5b6000f:	add	byte ptr [rbx + 0x56], dl
+0x22ae5b60012:	push	rdi
+0x22ae5b60013:	push	r15
+0x22ae5b60015:	push	r14
+0x22ae5b60017:	mov	rbx, rcx
+0x22ae5b6001a:	mov	r9, qword ptr [rsp - 0x90]
+0x22ae5b60022:	sub	rsp, 0x90
+0x22ae5b60029:	mov	rax, qword ptr [rbx + 0x10]
+0x22ae5b6002d:	sub	rax, 1
+0x22ae5b60031:	mov	qword ptr [rsp + 0x68], rax
+0x22ae5b60036:	mov	qword ptr [rsp + 0x70], rax
+0x22ae5b6003b:	mov	qword ptr [rsp + 0x78], rax
+3116	splunkd.exe	0x22ae91c0000	0x22ae91cffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+38 37 00 00 00 00 00 00 00 00 00 00 00 00 00 00 87..............
+53 56 57 41 57 41 56 48 89 cb 4c 8b 8c 24 60 ff SVWAWAVH..L..$`.
+ff ff 48 81 ec a0 00 00 00 48 8b 43 10 48 83 e8 ..H......H.C.H..
+01 48 89 44 24 68 48 89 44 24 70 48 89 44 24 78 .H.D$hH.D$pH.D$x	
+0x22ae91c0000:	cmp	byte ptr [rdi], dh
+0x22ae91c0002:	add	byte ptr [rax], al
+0x22ae91c0004:	add	byte ptr [rax], al
+0x22ae91c0006:	add	byte ptr [rax], al
+0x22ae91c0008:	add	byte ptr [rax], al
+0x22ae91c000a:	add	byte ptr [rax], al
+0x22ae91c000c:	add	byte ptr [rax], al
+0x22ae91c000e:	add	byte ptr [rax], al
+0x22ae91c0010:	push	rbx
+0x22ae91c0011:	push	rsi
+0x22ae91c0012:	push	rdi
+0x22ae91c0013:	push	r15
+0x22ae91c0015:	push	r14
+0x22ae91c0017:	mov	rbx, rcx
+0x22ae91c001a:	mov	r9, qword ptr [rsp - 0xa0]
+0x22ae91c0022:	sub	rsp, 0xa0
+0x22ae91c0029:	mov	rax, qword ptr [rbx + 0x10]
+0x22ae91c002d:	sub	rax, 1
+0x22ae91c0031:	mov	qword ptr [rsp + 0x68], rax
+0x22ae91c0036:	mov	qword ptr [rsp + 0x70], rax
+0x22ae91c003b:	mov	qword ptr [rsp + 0x78], rax
+3116	splunkd.exe	0x22ae9040000	0x22ae904ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+a8 29 00 00 00 00 00 00 00 00 00 00 00 00 00 00 .)..............
+53 56 57 41 57 41 56 48 89 cb 4c 8b 8c 24 60 ff SVWAWAVH..L..$`.
+ff ff 48 81 ec a0 00 00 00 48 8b 43 10 48 83 e8 ..H......H.C.H..
+01 48 89 44 24 68 48 89 44 24 70 48 89 44 24 78 .H.D$hH.D$pH.D$x	
+0x22ae9040000:	test	al, 0x29
+0x22ae9040002:	add	byte ptr [rax], al
+0x22ae9040004:	add	byte ptr [rax], al
+0x22ae9040006:	add	byte ptr [rax], al
+0x22ae9040008:	add	byte ptr [rax], al
+0x22ae904000a:	add	byte ptr [rax], al
+0x22ae904000c:	add	byte ptr [rax], al
+0x22ae904000e:	add	byte ptr [rax], al
+0x22ae9040010:	push	rbx
+0x22ae9040011:	push	rsi
+0x22ae9040012:	push	rdi
+0x22ae9040013:	push	r15
+0x22ae9040015:	push	r14
+0x22ae9040017:	mov	rbx, rcx
+0x22ae904001a:	mov	r9, qword ptr [rsp - 0xa0]
+0x22ae9040022:	sub	rsp, 0xa0
+0x22ae9040029:	mov	rax, qword ptr [rbx + 0x10]
+0x22ae904002d:	sub	rax, 1
+0x22ae9040031:	mov	qword ptr [rsp + 0x68], rax
+0x22ae9040036:	mov	qword ptr [rsp + 0x70], rax
+0x22ae904003b:	mov	qword ptr [rsp + 0x78], rax
+3116	splunkd.exe	0x22ae8f80000	0x22ae8f8ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae8f80000:	add	byte ptr [rax], al
+0x22ae8f80002:	add	byte ptr [rax], al
+0x22ae8f80004:	add	byte ptr [rax], al
+0x22ae8f80006:	add	byte ptr [rax], al
+0x22ae8f80008:	add	byte ptr [rax], al
+0x22ae8f8000a:	add	byte ptr [rax], al
+0x22ae8f8000c:	add	byte ptr [rax], al
+0x22ae8f8000e:	add	byte ptr [rax], al
+0x22ae8f80010:	add	byte ptr [rax], al
+0x22ae8f80012:	add	byte ptr [rax], al
+0x22ae8f80014:	add	byte ptr [rax], al
+0x22ae8f80016:	add	byte ptr [rax], al
+0x22ae8f80018:	add	byte ptr [rax], al
+0x22ae8f8001a:	add	byte ptr [rax], al
+0x22ae8f8001c:	add	byte ptr [rax], al
+0x22ae8f8001e:	add	byte ptr [rax], al
+0x22ae8f80020:	add	byte ptr [rax], al
+0x22ae8f80022:	add	byte ptr [rax], al
+0x22ae8f80024:	add	byte ptr [rax], al
+0x22ae8f80026:	add	byte ptr [rax], al
+0x22ae8f80028:	add	byte ptr [rax], al
+0x22ae8f8002a:	add	byte ptr [rax], al
+0x22ae8f8002c:	add	byte ptr [rax], al
+0x22ae8f8002e:	add	byte ptr [rax], al
+0x22ae8f80030:	add	byte ptr [rax], al
+0x22ae8f80032:	add	byte ptr [rax], al
+0x22ae8f80034:	add	byte ptr [rax], al
+0x22ae8f80036:	add	byte ptr [rax], al
+0x22ae8f80038:	add	byte ptr [rax], al
+0x22ae8f8003a:	add	byte ptr [rax], al
+0x22ae8f8003c:	add	byte ptr [rax], al
+0x22ae8f8003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae8ef0000	0x22ae8efffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae8ef0000:	add	byte ptr [rax], al
+0x22ae8ef0002:	add	byte ptr [rax], al
+0x22ae8ef0004:	add	byte ptr [rax], al
+0x22ae8ef0006:	add	byte ptr [rax], al
+0x22ae8ef0008:	add	byte ptr [rax], al
+0x22ae8ef000a:	add	byte ptr [rax], al
+0x22ae8ef000c:	add	byte ptr [rax], al
+0x22ae8ef000e:	add	byte ptr [rax], al
+0x22ae8ef0010:	add	byte ptr [rax], al
+0x22ae8ef0012:	add	byte ptr [rax], al
+0x22ae8ef0014:	add	byte ptr [rax], al
+0x22ae8ef0016:	add	byte ptr [rax], al
+0x22ae8ef0018:	add	byte ptr [rax], al
+0x22ae8ef001a:	add	byte ptr [rax], al
+0x22ae8ef001c:	add	byte ptr [rax], al
+0x22ae8ef001e:	add	byte ptr [rax], al
+0x22ae8ef0020:	add	byte ptr [rax], al
+0x22ae8ef0022:	add	byte ptr [rax], al
+0x22ae8ef0024:	add	byte ptr [rax], al
+0x22ae8ef0026:	add	byte ptr [rax], al
+0x22ae8ef0028:	add	byte ptr [rax], al
+0x22ae8ef002a:	add	byte ptr [rax], al
+0x22ae8ef002c:	add	byte ptr [rax], al
+0x22ae8ef002e:	add	byte ptr [rax], al
+0x22ae8ef0030:	add	byte ptr [rax], al
+0x22ae8ef0032:	add	byte ptr [rax], al
+0x22ae8ef0034:	add	byte ptr [rax], al
+0x22ae8ef0036:	add	byte ptr [rax], al
+0x22ae8ef0038:	add	byte ptr [rax], al
+0x22ae8ef003a:	add	byte ptr [rax], al
+0x22ae8ef003c:	add	byte ptr [rax], al
+0x22ae8ef003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae8ee0000	0x22ae8eeffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae8ee0000:	add	byte ptr [rax], al
+0x22ae8ee0002:	add	byte ptr [rax], al
+0x22ae8ee0004:	add	byte ptr [rax], al
+0x22ae8ee0006:	add	byte ptr [rax], al
+0x22ae8ee0008:	add	byte ptr [rax], al
+0x22ae8ee000a:	add	byte ptr [rax], al
+0x22ae8ee000c:	add	byte ptr [rax], al
+0x22ae8ee000e:	add	byte ptr [rax], al
+0x22ae8ee0010:	add	byte ptr [rax], al
+0x22ae8ee0012:	add	byte ptr [rax], al
+0x22ae8ee0014:	add	byte ptr [rax], al
+0x22ae8ee0016:	add	byte ptr [rax], al
+0x22ae8ee0018:	add	byte ptr [rax], al
+0x22ae8ee001a:	add	byte ptr [rax], al
+0x22ae8ee001c:	add	byte ptr [rax], al
+0x22ae8ee001e:	add	byte ptr [rax], al
+0x22ae8ee0020:	add	byte ptr [rax], al
+0x22ae8ee0022:	add	byte ptr [rax], al
+0x22ae8ee0024:	add	byte ptr [rax], al
+0x22ae8ee0026:	add	byte ptr [rax], al
+0x22ae8ee0028:	add	byte ptr [rax], al
+0x22ae8ee002a:	add	byte ptr [rax], al
+0x22ae8ee002c:	add	byte ptr [rax], al
+0x22ae8ee002e:	add	byte ptr [rax], al
+0x22ae8ee0030:	add	byte ptr [rax], al
+0x22ae8ee0032:	add	byte ptr [rax], al
+0x22ae8ee0034:	add	byte ptr [rax], al
+0x22ae8ee0036:	add	byte ptr [rax], al
+0x22ae8ee0038:	add	byte ptr [rax], al
+0x22ae8ee003a:	add	byte ptr [rax], al
+0x22ae8ee003c:	add	byte ptr [rax], al
+0x22ae8ee003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae8f40000	0x22ae8f5ffff	VadS	PAGE_EXECUTE_READWRITE	32	1	Disabled	N/A	
+a0 9a 01 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+53 56 57 41 57 41 56 48 89 cb 4c 8b 8c 24 60 ff SVWAWAVH..L..$`.
+ff ff 48 81 ec a0 00 00 00 48 8b 43 10 48 83 e8 ..H......H.C.H..
+01 48 89 44 24 68 48 89 44 24 70 48 89 44 24 78 .H.D$hH.D$pH.D$x	
+0x22ae8f40000:	movabs	al, byte ptr [0x19a]
+0x22ae8f40009:	add	byte ptr [rax], al
+0x22ae8f4000b:	add	byte ptr [rax], al
+0x22ae8f4000d:	add	byte ptr [rax], al
+0x22ae8f4000f:	add	byte ptr [rbx + 0x56], dl
+0x22ae8f40012:	push	rdi
+0x22ae8f40013:	push	r15
+0x22ae8f40015:	push	r14
+0x22ae8f40017:	mov	rbx, rcx
+0x22ae8f4001a:	mov	r9, qword ptr [rsp - 0xa0]
+0x22ae8f40022:	sub	rsp, 0xa0
+0x22ae8f40029:	mov	rax, qword ptr [rbx + 0x10]
+0x22ae8f4002d:	sub	rax, 1
+0x22ae8f40031:	mov	qword ptr [rsp + 0x68], rax
+0x22ae8f40036:	mov	qword ptr [rsp + 0x70], rax
+0x22ae8f4003b:	mov	qword ptr [rsp + 0x78], rax
+3116	splunkd.exe	0x22ae8f00000	0x22ae8f1ffff	VadS	PAGE_EXECUTE_READWRITE	32	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae8f00000:	add	byte ptr [rax], al
+0x22ae8f00002:	add	byte ptr [rax], al
+0x22ae8f00004:	add	byte ptr [rax], al
+0x22ae8f00006:	add	byte ptr [rax], al
+0x22ae8f00008:	add	byte ptr [rax], al
+0x22ae8f0000a:	add	byte ptr [rax], al
+0x22ae8f0000c:	add	byte ptr [rax], al
+0x22ae8f0000e:	add	byte ptr [rax], al
+0x22ae8f00010:	add	byte ptr [rax], al
+0x22ae8f00012:	add	byte ptr [rax], al
+0x22ae8f00014:	add	byte ptr [rax], al
+0x22ae8f00016:	add	byte ptr [rax], al
+0x22ae8f00018:	add	byte ptr [rax], al
+0x22ae8f0001a:	add	byte ptr [rax], al
+0x22ae8f0001c:	add	byte ptr [rax], al
+0x22ae8f0001e:	add	byte ptr [rax], al
+0x22ae8f00020:	add	byte ptr [rax], al
+0x22ae8f00022:	add	byte ptr [rax], al
+0x22ae8f00024:	add	byte ptr [rax], al
+0x22ae8f00026:	add	byte ptr [rax], al
+0x22ae8f00028:	add	byte ptr [rax], al
+0x22ae8f0002a:	add	byte ptr [rax], al
+0x22ae8f0002c:	add	byte ptr [rax], al
+0x22ae8f0002e:	add	byte ptr [rax], al
+0x22ae8f00030:	add	byte ptr [rax], al
+0x22ae8f00032:	add	byte ptr [rax], al
+0x22ae8f00034:	add	byte ptr [rax], al
+0x22ae8f00036:	add	byte ptr [rax], al
+0x22ae8f00038:	add	byte ptr [rax], al
+0x22ae8f0003a:	add	byte ptr [rax], al
+0x22ae8f0003c:	add	byte ptr [rax], al
+0x22ae8f0003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae8f70000	0x22ae8f7ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae8f70000:	add	byte ptr [rax], al
+0x22ae8f70002:	add	byte ptr [rax], al
+0x22ae8f70004:	add	byte ptr [rax], al
+0x22ae8f70006:	add	byte ptr [rax], al
+0x22ae8f70008:	add	byte ptr [rax], al
+0x22ae8f7000a:	add	byte ptr [rax], al
+0x22ae8f7000c:	add	byte ptr [rax], al
+0x22ae8f7000e:	add	byte ptr [rax], al
+0x22ae8f70010:	add	byte ptr [rax], al
+0x22ae8f70012:	add	byte ptr [rax], al
+0x22ae8f70014:	add	byte ptr [rax], al
+0x22ae8f70016:	add	byte ptr [rax], al
+0x22ae8f70018:	add	byte ptr [rax], al
+0x22ae8f7001a:	add	byte ptr [rax], al
+0x22ae8f7001c:	add	byte ptr [rax], al
+0x22ae8f7001e:	add	byte ptr [rax], al
+0x22ae8f70020:	add	byte ptr [rax], al
+0x22ae8f70022:	add	byte ptr [rax], al
+0x22ae8f70024:	add	byte ptr [rax], al
+0x22ae8f70026:	add	byte ptr [rax], al
+0x22ae8f70028:	add	byte ptr [rax], al
+0x22ae8f7002a:	add	byte ptr [rax], al
+0x22ae8f7002c:	add	byte ptr [rax], al
+0x22ae8f7002e:	add	byte ptr [rax], al
+0x22ae8f70030:	add	byte ptr [rax], al
+0x22ae8f70032:	add	byte ptr [rax], al
+0x22ae8f70034:	add	byte ptr [rax], al
+0x22ae8f70036:	add	byte ptr [rax], al
+0x22ae8f70038:	add	byte ptr [rax], al
+0x22ae8f7003a:	add	byte ptr [rax], al
+0x22ae8f7003c:	add	byte ptr [rax], al
+0x22ae8f7003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae8f60000	0x22ae8f6ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+b0 4a 00 00 00 00 00 00 00 00 00 00 00 00 00 00 .J..............
+53 56 57 41 57 41 56 48 89 cb 4c 8b 8c 24 60 ff SVWAWAVH..L..$`.
+ff ff 48 81 ec a0 00 00 00 48 8b 43 10 48 83 e8 ..H......H.C.H..
+01 48 89 44 24 68 48 89 44 24 70 48 89 44 24 78 .H.D$hH.D$pH.D$x	
+0x22ae8f60000:	mov	al, 0x4a
+0x22ae8f60002:	add	byte ptr [rax], al
+0x22ae8f60004:	add	byte ptr [rax], al
+0x22ae8f60006:	add	byte ptr [rax], al
+0x22ae8f60008:	add	byte ptr [rax], al
+0x22ae8f6000a:	add	byte ptr [rax], al
+0x22ae8f6000c:	add	byte ptr [rax], al
+0x22ae8f6000e:	add	byte ptr [rax], al
+0x22ae8f60010:	push	rbx
+0x22ae8f60011:	push	rsi
+0x22ae8f60012:	push	rdi
+0x22ae8f60013:	push	r15
+0x22ae8f60015:	push	r14
+0x22ae8f60017:	mov	rbx, rcx
+0x22ae8f6001a:	mov	r9, qword ptr [rsp - 0xa0]
+0x22ae8f60022:	sub	rsp, 0xa0
+0x22ae8f60029:	mov	rax, qword ptr [rbx + 0x10]
+0x22ae8f6002d:	sub	rax, 1
+0x22ae8f60031:	mov	qword ptr [rsp + 0x68], rax
+0x22ae8f60036:	mov	qword ptr [rsp + 0x70], rax
+0x22ae8f6003b:	mov	qword ptr [rsp + 0x78], rax
+3116	splunkd.exe	0x22ae8fe0000	0x22ae8feffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+08 1e 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+53 56 57 41 57 41 56 48 89 cb 4c 8b 8c 24 60 ff SVWAWAVH..L..$`.
+ff ff 48 81 ec a0 00 00 00 48 8b 43 10 48 83 e8 ..H......H.C.H..
+01 48 89 44 24 68 48 89 44 24 70 48 89 44 24 78 .H.D$hH.D$pH.D$x	
+0x22ae8fe0000:	or	byte ptr [rsi], bl
+0x22ae8fe0002:	add	byte ptr [rax], al
+0x22ae8fe0004:	add	byte ptr [rax], al
+0x22ae8fe0006:	add	byte ptr [rax], al
+0x22ae8fe0008:	add	byte ptr [rax], al
+0x22ae8fe000a:	add	byte ptr [rax], al
+0x22ae8fe000c:	add	byte ptr [rax], al
+0x22ae8fe000e:	add	byte ptr [rax], al
+0x22ae8fe0010:	push	rbx
+0x22ae8fe0011:	push	rsi
+0x22ae8fe0012:	push	rdi
+0x22ae8fe0013:	push	r15
+0x22ae8fe0015:	push	r14
+0x22ae8fe0017:	mov	rbx, rcx
+0x22ae8fe001a:	mov	r9, qword ptr [rsp - 0xa0]
+0x22ae8fe0022:	sub	rsp, 0xa0
+0x22ae8fe0029:	mov	rax, qword ptr [rbx + 0x10]
+0x22ae8fe002d:	sub	rax, 1
+0x22ae8fe0031:	mov	qword ptr [rsp + 0x68], rax
+0x22ae8fe0036:	mov	qword ptr [rsp + 0x70], rax
+0x22ae8fe003b:	mov	qword ptr [rsp + 0x78], rax
+3116	splunkd.exe	0x22ae8fb0000	0x22ae8fbffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae8fb0000:	add	byte ptr [rax], al
+0x22ae8fb0002:	add	byte ptr [rax], al
+0x22ae8fb0004:	add	byte ptr [rax], al
+0x22ae8fb0006:	add	byte ptr [rax], al
+0x22ae8fb0008:	add	byte ptr [rax], al
+0x22ae8fb000a:	add	byte ptr [rax], al
+0x22ae8fb000c:	add	byte ptr [rax], al
+0x22ae8fb000e:	add	byte ptr [rax], al
+0x22ae8fb0010:	add	byte ptr [rax], al
+0x22ae8fb0012:	add	byte ptr [rax], al
+0x22ae8fb0014:	add	byte ptr [rax], al
+0x22ae8fb0016:	add	byte ptr [rax], al
+0x22ae8fb0018:	add	byte ptr [rax], al
+0x22ae8fb001a:	add	byte ptr [rax], al
+0x22ae8fb001c:	add	byte ptr [rax], al
+0x22ae8fb001e:	add	byte ptr [rax], al
+0x22ae8fb0020:	add	byte ptr [rax], al
+0x22ae8fb0022:	add	byte ptr [rax], al
+0x22ae8fb0024:	add	byte ptr [rax], al
+0x22ae8fb0026:	add	byte ptr [rax], al
+0x22ae8fb0028:	add	byte ptr [rax], al
+0x22ae8fb002a:	add	byte ptr [rax], al
+0x22ae8fb002c:	add	byte ptr [rax], al
+0x22ae8fb002e:	add	byte ptr [rax], al
+0x22ae8fb0030:	add	byte ptr [rax], al
+0x22ae8fb0032:	add	byte ptr [rax], al
+0x22ae8fb0034:	add	byte ptr [rax], al
+0x22ae8fb0036:	add	byte ptr [rax], al
+0x22ae8fb0038:	add	byte ptr [rax], al
+0x22ae8fb003a:	add	byte ptr [rax], al
+0x22ae8fb003c:	add	byte ptr [rax], al
+0x22ae8fb003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae8fa0000	0x22ae8faffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae8fa0000:	add	byte ptr [rax], al
+0x22ae8fa0002:	add	byte ptr [rax], al
+0x22ae8fa0004:	add	byte ptr [rax], al
+0x22ae8fa0006:	add	byte ptr [rax], al
+0x22ae8fa0008:	add	byte ptr [rax], al
+0x22ae8fa000a:	add	byte ptr [rax], al
+0x22ae8fa000c:	add	byte ptr [rax], al
+0x22ae8fa000e:	add	byte ptr [rax], al
+0x22ae8fa0010:	add	byte ptr [rax], al
+0x22ae8fa0012:	add	byte ptr [rax], al
+0x22ae8fa0014:	add	byte ptr [rax], al
+0x22ae8fa0016:	add	byte ptr [rax], al
+0x22ae8fa0018:	add	byte ptr [rax], al
+0x22ae8fa001a:	add	byte ptr [rax], al
+0x22ae8fa001c:	add	byte ptr [rax], al
+0x22ae8fa001e:	add	byte ptr [rax], al
+0x22ae8fa0020:	add	byte ptr [rax], al
+0x22ae8fa0022:	add	byte ptr [rax], al
+0x22ae8fa0024:	add	byte ptr [rax], al
+0x22ae8fa0026:	add	byte ptr [rax], al
+0x22ae8fa0028:	add	byte ptr [rax], al
+0x22ae8fa002a:	add	byte ptr [rax], al
+0x22ae8fa002c:	add	byte ptr [rax], al
+0x22ae8fa002e:	add	byte ptr [rax], al
+0x22ae8fa0030:	add	byte ptr [rax], al
+0x22ae8fa0032:	add	byte ptr [rax], al
+0x22ae8fa0034:	add	byte ptr [rax], al
+0x22ae8fa0036:	add	byte ptr [rax], al
+0x22ae8fa0038:	add	byte ptr [rax], al
+0x22ae8fa003a:	add	byte ptr [rax], al
+0x22ae8fa003c:	add	byte ptr [rax], al
+0x22ae8fa003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae8f90000	0x22ae8f9ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae8f90000:	add	byte ptr [rax], al
+0x22ae8f90002:	add	byte ptr [rax], al
+0x22ae8f90004:	add	byte ptr [rax], al
+0x22ae8f90006:	add	byte ptr [rax], al
+0x22ae8f90008:	add	byte ptr [rax], al
+0x22ae8f9000a:	add	byte ptr [rax], al
+0x22ae8f9000c:	add	byte ptr [rax], al
+0x22ae8f9000e:	add	byte ptr [rax], al
+0x22ae8f90010:	add	byte ptr [rax], al
+0x22ae8f90012:	add	byte ptr [rax], al
+0x22ae8f90014:	add	byte ptr [rax], al
+0x22ae8f90016:	add	byte ptr [rax], al
+0x22ae8f90018:	add	byte ptr [rax], al
+0x22ae8f9001a:	add	byte ptr [rax], al
+0x22ae8f9001c:	add	byte ptr [rax], al
+0x22ae8f9001e:	add	byte ptr [rax], al
+0x22ae8f90020:	add	byte ptr [rax], al
+0x22ae8f90022:	add	byte ptr [rax], al
+0x22ae8f90024:	add	byte ptr [rax], al
+0x22ae8f90026:	add	byte ptr [rax], al
+0x22ae8f90028:	add	byte ptr [rax], al
+0x22ae8f9002a:	add	byte ptr [rax], al
+0x22ae8f9002c:	add	byte ptr [rax], al
+0x22ae8f9002e:	add	byte ptr [rax], al
+0x22ae8f90030:	add	byte ptr [rax], al
+0x22ae8f90032:	add	byte ptr [rax], al
+0x22ae8f90034:	add	byte ptr [rax], al
+0x22ae8f90036:	add	byte ptr [rax], al
+0x22ae8f90038:	add	byte ptr [rax], al
+0x22ae8f9003a:	add	byte ptr [rax], al
+0x22ae8f9003c:	add	byte ptr [rax], al
+0x22ae8f9003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae8fd0000	0x22ae8fdffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae8fd0000:	add	byte ptr [rax], al
+0x22ae8fd0002:	add	byte ptr [rax], al
+0x22ae8fd0004:	add	byte ptr [rax], al
+0x22ae8fd0006:	add	byte ptr [rax], al
+0x22ae8fd0008:	add	byte ptr [rax], al
+0x22ae8fd000a:	add	byte ptr [rax], al
+0x22ae8fd000c:	add	byte ptr [rax], al
+0x22ae8fd000e:	add	byte ptr [rax], al
+0x22ae8fd0010:	add	byte ptr [rax], al
+0x22ae8fd0012:	add	byte ptr [rax], al
+0x22ae8fd0014:	add	byte ptr [rax], al
+0x22ae8fd0016:	add	byte ptr [rax], al
+0x22ae8fd0018:	add	byte ptr [rax], al
+0x22ae8fd001a:	add	byte ptr [rax], al
+0x22ae8fd001c:	add	byte ptr [rax], al
+0x22ae8fd001e:	add	byte ptr [rax], al
+0x22ae8fd0020:	add	byte ptr [rax], al
+0x22ae8fd0022:	add	byte ptr [rax], al
+0x22ae8fd0024:	add	byte ptr [rax], al
+0x22ae8fd0026:	add	byte ptr [rax], al
+0x22ae8fd0028:	add	byte ptr [rax], al
+0x22ae8fd002a:	add	byte ptr [rax], al
+0x22ae8fd002c:	add	byte ptr [rax], al
+0x22ae8fd002e:	add	byte ptr [rax], al
+0x22ae8fd0030:	add	byte ptr [rax], al
+0x22ae8fd0032:	add	byte ptr [rax], al
+0x22ae8fd0034:	add	byte ptr [rax], al
+0x22ae8fd0036:	add	byte ptr [rax], al
+0x22ae8fd0038:	add	byte ptr [rax], al
+0x22ae8fd003a:	add	byte ptr [rax], al
+0x22ae8fd003c:	add	byte ptr [rax], al
+0x22ae8fd003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae8fc0000	0x22ae8fcffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae8fc0000:	add	byte ptr [rax], al
+0x22ae8fc0002:	add	byte ptr [rax], al
+0x22ae8fc0004:	add	byte ptr [rax], al
+0x22ae8fc0006:	add	byte ptr [rax], al
+0x22ae8fc0008:	add	byte ptr [rax], al
+0x22ae8fc000a:	add	byte ptr [rax], al
+0x22ae8fc000c:	add	byte ptr [rax], al
+0x22ae8fc000e:	add	byte ptr [rax], al
+0x22ae8fc0010:	add	byte ptr [rax], al
+0x22ae8fc0012:	add	byte ptr [rax], al
+0x22ae8fc0014:	add	byte ptr [rax], al
+0x22ae8fc0016:	add	byte ptr [rax], al
+0x22ae8fc0018:	add	byte ptr [rax], al
+0x22ae8fc001a:	add	byte ptr [rax], al
+0x22ae8fc001c:	add	byte ptr [rax], al
+0x22ae8fc001e:	add	byte ptr [rax], al
+0x22ae8fc0020:	add	byte ptr [rax], al
+0x22ae8fc0022:	add	byte ptr [rax], al
+0x22ae8fc0024:	add	byte ptr [rax], al
+0x22ae8fc0026:	add	byte ptr [rax], al
+0x22ae8fc0028:	add	byte ptr [rax], al
+0x22ae8fc002a:	add	byte ptr [rax], al
+0x22ae8fc002c:	add	byte ptr [rax], al
+0x22ae8fc002e:	add	byte ptr [rax], al
+0x22ae8fc0030:	add	byte ptr [rax], al
+0x22ae8fc0032:	add	byte ptr [rax], al
+0x22ae8fc0034:	add	byte ptr [rax], al
+0x22ae8fc0036:	add	byte ptr [rax], al
+0x22ae8fc0038:	add	byte ptr [rax], al
+0x22ae8fc003a:	add	byte ptr [rax], al
+0x22ae8fc003c:	add	byte ptr [rax], al
+0x22ae8fc003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae9010000	0x22ae901ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae9010000:	add	byte ptr [rax], al
+0x22ae9010002:	add	byte ptr [rax], al
+0x22ae9010004:	add	byte ptr [rax], al
+0x22ae9010006:	add	byte ptr [rax], al
+0x22ae9010008:	add	byte ptr [rax], al
+0x22ae901000a:	add	byte ptr [rax], al
+0x22ae901000c:	add	byte ptr [rax], al
+0x22ae901000e:	add	byte ptr [rax], al
+0x22ae9010010:	add	byte ptr [rax], al
+0x22ae9010012:	add	byte ptr [rax], al
+0x22ae9010014:	add	byte ptr [rax], al
+0x22ae9010016:	add	byte ptr [rax], al
+0x22ae9010018:	add	byte ptr [rax], al
+0x22ae901001a:	add	byte ptr [rax], al
+0x22ae901001c:	add	byte ptr [rax], al
+0x22ae901001e:	add	byte ptr [rax], al
+0x22ae9010020:	add	byte ptr [rax], al
+0x22ae9010022:	add	byte ptr [rax], al
+0x22ae9010024:	add	byte ptr [rax], al
+0x22ae9010026:	add	byte ptr [rax], al
+0x22ae9010028:	add	byte ptr [rax], al
+0x22ae901002a:	add	byte ptr [rax], al
+0x22ae901002c:	add	byte ptr [rax], al
+0x22ae901002e:	add	byte ptr [rax], al
+0x22ae9010030:	add	byte ptr [rax], al
+0x22ae9010032:	add	byte ptr [rax], al
+0x22ae9010034:	add	byte ptr [rax], al
+0x22ae9010036:	add	byte ptr [rax], al
+0x22ae9010038:	add	byte ptr [rax], al
+0x22ae901003a:	add	byte ptr [rax], al
+0x22ae901003c:	add	byte ptr [rax], al
+0x22ae901003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae9000000	0x22ae900ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae9000000:	add	byte ptr [rax], al
+0x22ae9000002:	add	byte ptr [rax], al
+0x22ae9000004:	add	byte ptr [rax], al
+0x22ae9000006:	add	byte ptr [rax], al
+0x22ae9000008:	add	byte ptr [rax], al
+0x22ae900000a:	add	byte ptr [rax], al
+0x22ae900000c:	add	byte ptr [rax], al
+0x22ae900000e:	add	byte ptr [rax], al
+0x22ae9000010:	add	byte ptr [rax], al
+0x22ae9000012:	add	byte ptr [rax], al
+0x22ae9000014:	add	byte ptr [rax], al
+0x22ae9000016:	add	byte ptr [rax], al
+0x22ae9000018:	add	byte ptr [rax], al
+0x22ae900001a:	add	byte ptr [rax], al
+0x22ae900001c:	add	byte ptr [rax], al
+0x22ae900001e:	add	byte ptr [rax], al
+0x22ae9000020:	add	byte ptr [rax], al
+0x22ae9000022:	add	byte ptr [rax], al
+0x22ae9000024:	add	byte ptr [rax], al
+0x22ae9000026:	add	byte ptr [rax], al
+0x22ae9000028:	add	byte ptr [rax], al
+0x22ae900002a:	add	byte ptr [rax], al
+0x22ae900002c:	add	byte ptr [rax], al
+0x22ae900002e:	add	byte ptr [rax], al
+0x22ae9000030:	add	byte ptr [rax], al
+0x22ae9000032:	add	byte ptr [rax], al
+0x22ae9000034:	add	byte ptr [rax], al
+0x22ae9000036:	add	byte ptr [rax], al
+0x22ae9000038:	add	byte ptr [rax], al
+0x22ae900003a:	add	byte ptr [rax], al
+0x22ae900003c:	add	byte ptr [rax], al
+0x22ae900003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae8ff0000	0x22ae8ffffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+88 2d 00 00 00 00 00 00 00 00 00 00 00 00 00 00 .-..............
+53 56 57 41 57 41 56 48 89 cb 4c 8b 8c 24 60 ff SVWAWAVH..L..$`.
+ff ff 48 81 ec a0 00 00 00 48 8b 43 10 48 83 e8 ..H......H.C.H..
+01 48 89 44 24 68 48 89 44 24 70 48 89 44 24 78 .H.D$hH.D$pH.D$x	
+0x22ae8ff0000:	mov	byte ptr [rip], ch
+0x22ae8ff0006:	add	byte ptr [rax], al
+0x22ae8ff0008:	add	byte ptr [rax], al
+0x22ae8ff000a:	add	byte ptr [rax], al
+0x22ae8ff000c:	add	byte ptr [rax], al
+0x22ae8ff000e:	add	byte ptr [rax], al
+0x22ae8ff0010:	push	rbx
+0x22ae8ff0011:	push	rsi
+0x22ae8ff0012:	push	rdi
+0x22ae8ff0013:	push	r15
+0x22ae8ff0015:	push	r14
+0x22ae8ff0017:	mov	rbx, rcx
+0x22ae8ff001a:	mov	r9, qword ptr [rsp - 0xa0]
+0x22ae8ff0022:	sub	rsp, 0xa0
+0x22ae8ff0029:	mov	rax, qword ptr [rbx + 0x10]
+0x22ae8ff002d:	sub	rax, 1
+0x22ae8ff0031:	mov	qword ptr [rsp + 0x68], rax
+0x22ae8ff0036:	mov	qword ptr [rsp + 0x70], rax
+0x22ae8ff003b:	mov	qword ptr [rsp + 0x78], rax
+3116	splunkd.exe	0x22ae9030000	0x22ae903ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae9030000:	add	byte ptr [rax], al
+0x22ae9030002:	add	byte ptr [rax], al
+0x22ae9030004:	add	byte ptr [rax], al
+0x22ae9030006:	add	byte ptr [rax], al
+0x22ae9030008:	add	byte ptr [rax], al
+0x22ae903000a:	add	byte ptr [rax], al
+0x22ae903000c:	add	byte ptr [rax], al
+0x22ae903000e:	add	byte ptr [rax], al
+0x22ae9030010:	add	byte ptr [rax], al
+0x22ae9030012:	add	byte ptr [rax], al
+0x22ae9030014:	add	byte ptr [rax], al
+0x22ae9030016:	add	byte ptr [rax], al
+0x22ae9030018:	add	byte ptr [rax], al
+0x22ae903001a:	add	byte ptr [rax], al
+0x22ae903001c:	add	byte ptr [rax], al
+0x22ae903001e:	add	byte ptr [rax], al
+0x22ae9030020:	add	byte ptr [rax], al
+0x22ae9030022:	add	byte ptr [rax], al
+0x22ae9030024:	add	byte ptr [rax], al
+0x22ae9030026:	add	byte ptr [rax], al
+0x22ae9030028:	add	byte ptr [rax], al
+0x22ae903002a:	add	byte ptr [rax], al
+0x22ae903002c:	add	byte ptr [rax], al
+0x22ae903002e:	add	byte ptr [rax], al
+0x22ae9030030:	add	byte ptr [rax], al
+0x22ae9030032:	add	byte ptr [rax], al
+0x22ae9030034:	add	byte ptr [rax], al
+0x22ae9030036:	add	byte ptr [rax], al
+0x22ae9030038:	add	byte ptr [rax], al
+0x22ae903003a:	add	byte ptr [rax], al
+0x22ae903003c:	add	byte ptr [rax], al
+0x22ae903003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae9020000	0x22ae902ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae9020000:	add	byte ptr [rax], al
+0x22ae9020002:	add	byte ptr [rax], al
+0x22ae9020004:	add	byte ptr [rax], al
+0x22ae9020006:	add	byte ptr [rax], al
+0x22ae9020008:	add	byte ptr [rax], al
+0x22ae902000a:	add	byte ptr [rax], al
+0x22ae902000c:	add	byte ptr [rax], al
+0x22ae902000e:	add	byte ptr [rax], al
+0x22ae9020010:	add	byte ptr [rax], al
+0x22ae9020012:	add	byte ptr [rax], al
+0x22ae9020014:	add	byte ptr [rax], al
+0x22ae9020016:	add	byte ptr [rax], al
+0x22ae9020018:	add	byte ptr [rax], al
+0x22ae902001a:	add	byte ptr [rax], al
+0x22ae902001c:	add	byte ptr [rax], al
+0x22ae902001e:	add	byte ptr [rax], al
+0x22ae9020020:	add	byte ptr [rax], al
+0x22ae9020022:	add	byte ptr [rax], al
+0x22ae9020024:	add	byte ptr [rax], al
+0x22ae9020026:	add	byte ptr [rax], al
+0x22ae9020028:	add	byte ptr [rax], al
+0x22ae902002a:	add	byte ptr [rax], al
+0x22ae902002c:	add	byte ptr [rax], al
+0x22ae902002e:	add	byte ptr [rax], al
+0x22ae9020030:	add	byte ptr [rax], al
+0x22ae9020032:	add	byte ptr [rax], al
+0x22ae9020034:	add	byte ptr [rax], al
+0x22ae9020036:	add	byte ptr [rax], al
+0x22ae9020038:	add	byte ptr [rax], al
+0x22ae902003a:	add	byte ptr [rax], al
+0x22ae902003c:	add	byte ptr [rax], al
+0x22ae902003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae9100000	0x22ae910ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae9100000:	add	byte ptr [rax], al
+0x22ae9100002:	add	byte ptr [rax], al
+0x22ae9100004:	add	byte ptr [rax], al
+0x22ae9100006:	add	byte ptr [rax], al
+0x22ae9100008:	add	byte ptr [rax], al
+0x22ae910000a:	add	byte ptr [rax], al
+0x22ae910000c:	add	byte ptr [rax], al
+0x22ae910000e:	add	byte ptr [rax], al
+0x22ae9100010:	add	byte ptr [rax], al
+0x22ae9100012:	add	byte ptr [rax], al
+0x22ae9100014:	add	byte ptr [rax], al
+0x22ae9100016:	add	byte ptr [rax], al
+0x22ae9100018:	add	byte ptr [rax], al
+0x22ae910001a:	add	byte ptr [rax], al
+0x22ae910001c:	add	byte ptr [rax], al
+0x22ae910001e:	add	byte ptr [rax], al
+0x22ae9100020:	add	byte ptr [rax], al
+0x22ae9100022:	add	byte ptr [rax], al
+0x22ae9100024:	add	byte ptr [rax], al
+0x22ae9100026:	add	byte ptr [rax], al
+0x22ae9100028:	add	byte ptr [rax], al
+0x22ae910002a:	add	byte ptr [rax], al
+0x22ae910002c:	add	byte ptr [rax], al
+0x22ae910002e:	add	byte ptr [rax], al
+0x22ae9100030:	add	byte ptr [rax], al
+0x22ae9100032:	add	byte ptr [rax], al
+0x22ae9100034:	add	byte ptr [rax], al
+0x22ae9100036:	add	byte ptr [rax], al
+0x22ae9100038:	add	byte ptr [rax], al
+0x22ae910003a:	add	byte ptr [rax], al
+0x22ae910003c:	add	byte ptr [rax], al
+0x22ae910003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae90a0000	0x22ae90affff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae90a0000:	add	byte ptr [rax], al
+0x22ae90a0002:	add	byte ptr [rax], al
+0x22ae90a0004:	add	byte ptr [rax], al
+0x22ae90a0006:	add	byte ptr [rax], al
+0x22ae90a0008:	add	byte ptr [rax], al
+0x22ae90a000a:	add	byte ptr [rax], al
+0x22ae90a000c:	add	byte ptr [rax], al
+0x22ae90a000e:	add	byte ptr [rax], al
+0x22ae90a0010:	add	byte ptr [rax], al
+0x22ae90a0012:	add	byte ptr [rax], al
+0x22ae90a0014:	add	byte ptr [rax], al
+0x22ae90a0016:	add	byte ptr [rax], al
+0x22ae90a0018:	add	byte ptr [rax], al
+0x22ae90a001a:	add	byte ptr [rax], al
+0x22ae90a001c:	add	byte ptr [rax], al
+0x22ae90a001e:	add	byte ptr [rax], al
+0x22ae90a0020:	add	byte ptr [rax], al
+0x22ae90a0022:	add	byte ptr [rax], al
+0x22ae90a0024:	add	byte ptr [rax], al
+0x22ae90a0026:	add	byte ptr [rax], al
+0x22ae90a0028:	add	byte ptr [rax], al
+0x22ae90a002a:	add	byte ptr [rax], al
+0x22ae90a002c:	add	byte ptr [rax], al
+0x22ae90a002e:	add	byte ptr [rax], al
+0x22ae90a0030:	add	byte ptr [rax], al
+0x22ae90a0032:	add	byte ptr [rax], al
+0x22ae90a0034:	add	byte ptr [rax], al
+0x22ae90a0036:	add	byte ptr [rax], al
+0x22ae90a0038:	add	byte ptr [rax], al
+0x22ae90a003a:	add	byte ptr [rax], al
+0x22ae90a003c:	add	byte ptr [rax], al
+0x22ae90a003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae9070000	0x22ae907ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae9070000:	add	byte ptr [rax], al
+0x22ae9070002:	add	byte ptr [rax], al
+0x22ae9070004:	add	byte ptr [rax], al
+0x22ae9070006:	add	byte ptr [rax], al
+0x22ae9070008:	add	byte ptr [rax], al
+0x22ae907000a:	add	byte ptr [rax], al
+0x22ae907000c:	add	byte ptr [rax], al
+0x22ae907000e:	add	byte ptr [rax], al
+0x22ae9070010:	add	byte ptr [rax], al
+0x22ae9070012:	add	byte ptr [rax], al
+0x22ae9070014:	add	byte ptr [rax], al
+0x22ae9070016:	add	byte ptr [rax], al
+0x22ae9070018:	add	byte ptr [rax], al
+0x22ae907001a:	add	byte ptr [rax], al
+0x22ae907001c:	add	byte ptr [rax], al
+0x22ae907001e:	add	byte ptr [rax], al
+0x22ae9070020:	add	byte ptr [rax], al
+0x22ae9070022:	add	byte ptr [rax], al
+0x22ae9070024:	add	byte ptr [rax], al
+0x22ae9070026:	add	byte ptr [rax], al
+0x22ae9070028:	add	byte ptr [rax], al
+0x22ae907002a:	add	byte ptr [rax], al
+0x22ae907002c:	add	byte ptr [rax], al
+0x22ae907002e:	add	byte ptr [rax], al
+0x22ae9070030:	add	byte ptr [rax], al
+0x22ae9070032:	add	byte ptr [rax], al
+0x22ae9070034:	add	byte ptr [rax], al
+0x22ae9070036:	add	byte ptr [rax], al
+0x22ae9070038:	add	byte ptr [rax], al
+0x22ae907003a:	add	byte ptr [rax], al
+0x22ae907003c:	add	byte ptr [rax], al
+0x22ae907003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae9060000	0x22ae906ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+c8 25 00 00 00 00 00 00 00 00 00 00 00 00 00 00 .%..............
+53 56 57 41 57 41 56 48 89 cb 4c 8b 8c 24 60 ff SVWAWAVH..L..$`.
+ff ff 48 81 ec a0 00 00 00 48 8b 43 10 48 83 e8 ..H......H.C.H..
+01 48 89 44 24 68 48 89 44 24 70 48 89 44 24 78 .H.D$hH.D$pH.D$x	
+0x22ae9060000:	enter	0x25, 0
+0x22ae9060004:	add	byte ptr [rax], al
+0x22ae9060006:	add	byte ptr [rax], al
+0x22ae9060008:	add	byte ptr [rax], al
+0x22ae906000a:	add	byte ptr [rax], al
+0x22ae906000c:	add	byte ptr [rax], al
+0x22ae906000e:	add	byte ptr [rax], al
+0x22ae9060010:	push	rbx
+0x22ae9060011:	push	rsi
+0x22ae9060012:	push	rdi
+0x22ae9060013:	push	r15
+0x22ae9060015:	push	r14
+0x22ae9060017:	mov	rbx, rcx
+0x22ae906001a:	mov	r9, qword ptr [rsp - 0xa0]
+0x22ae9060022:	sub	rsp, 0xa0
+0x22ae9060029:	mov	rax, qword ptr [rbx + 0x10]
+0x22ae906002d:	sub	rax, 1
+0x22ae9060031:	mov	qword ptr [rsp + 0x68], rax
+0x22ae9060036:	mov	qword ptr [rsp + 0x70], rax
+0x22ae906003b:	mov	qword ptr [rsp + 0x78], rax
+3116	splunkd.exe	0x22ae9050000	0x22ae905ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+d0 24 00 00 00 00 00 00 00 00 00 00 00 00 00 00 .$..............
+53 56 57 41 57 41 56 48 89 cb 4c 8b 8c 24 60 ff SVWAWAVH..L..$`.
+ff ff 48 81 ec a0 00 00 00 48 8b 43 10 48 83 e8 ..H......H.C.H..
+01 48 89 44 24 68 48 89 44 24 70 48 89 44 24 78 .H.D$hH.D$pH.D$x	
+0x22ae9050000:	shl	byte ptr [rax + rax], 1
+0x22ae9050003:	add	byte ptr [rax], al
+0x22ae9050005:	add	byte ptr [rax], al
+0x22ae9050007:	add	byte ptr [rax], al
+0x22ae9050009:	add	byte ptr [rax], al
+0x22ae905000b:	add	byte ptr [rax], al
+0x22ae905000d:	add	byte ptr [rax], al
+0x22ae905000f:	add	byte ptr [rbx + 0x56], dl
+0x22ae9050012:	push	rdi
+0x22ae9050013:	push	r15
+0x22ae9050015:	push	r14
+0x22ae9050017:	mov	rbx, rcx
+0x22ae905001a:	mov	r9, qword ptr [rsp - 0xa0]
+0x22ae9050022:	sub	rsp, 0xa0
+0x22ae9050029:	mov	rax, qword ptr [rbx + 0x10]
+0x22ae905002d:	sub	rax, 1
+0x22ae9050031:	mov	qword ptr [rsp + 0x68], rax
+0x22ae9050036:	mov	qword ptr [rsp + 0x70], rax
+0x22ae905003b:	mov	qword ptr [rsp + 0x78], rax
+3116	splunkd.exe	0x22ae9090000	0x22ae909ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae9090000:	add	byte ptr [rax], al
+0x22ae9090002:	add	byte ptr [rax], al
+0x22ae9090004:	add	byte ptr [rax], al
+0x22ae9090006:	add	byte ptr [rax], al
+0x22ae9090008:	add	byte ptr [rax], al
+0x22ae909000a:	add	byte ptr [rax], al
+0x22ae909000c:	add	byte ptr [rax], al
+0x22ae909000e:	add	byte ptr [rax], al
+0x22ae9090010:	add	byte ptr [rax], al
+0x22ae9090012:	add	byte ptr [rax], al
+0x22ae9090014:	add	byte ptr [rax], al
+0x22ae9090016:	add	byte ptr [rax], al
+0x22ae9090018:	add	byte ptr [rax], al
+0x22ae909001a:	add	byte ptr [rax], al
+0x22ae909001c:	add	byte ptr [rax], al
+0x22ae909001e:	add	byte ptr [rax], al
+0x22ae9090020:	add	byte ptr [rax], al
+0x22ae9090022:	add	byte ptr [rax], al
+0x22ae9090024:	add	byte ptr [rax], al
+0x22ae9090026:	add	byte ptr [rax], al
+0x22ae9090028:	add	byte ptr [rax], al
+0x22ae909002a:	add	byte ptr [rax], al
+0x22ae909002c:	add	byte ptr [rax], al
+0x22ae909002e:	add	byte ptr [rax], al
+0x22ae9090030:	add	byte ptr [rax], al
+0x22ae9090032:	add	byte ptr [rax], al
+0x22ae9090034:	add	byte ptr [rax], al
+0x22ae9090036:	add	byte ptr [rax], al
+0x22ae9090038:	add	byte ptr [rax], al
+0x22ae909003a:	add	byte ptr [rax], al
+0x22ae909003c:	add	byte ptr [rax], al
+0x22ae909003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae9080000	0x22ae908ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae9080000:	add	byte ptr [rax], al
+0x22ae9080002:	add	byte ptr [rax], al
+0x22ae9080004:	add	byte ptr [rax], al
+0x22ae9080006:	add	byte ptr [rax], al
+0x22ae9080008:	add	byte ptr [rax], al
+0x22ae908000a:	add	byte ptr [rax], al
+0x22ae908000c:	add	byte ptr [rax], al
+0x22ae908000e:	add	byte ptr [rax], al
+0x22ae9080010:	add	byte ptr [rax], al
+0x22ae9080012:	add	byte ptr [rax], al
+0x22ae9080014:	add	byte ptr [rax], al
+0x22ae9080016:	add	byte ptr [rax], al
+0x22ae9080018:	add	byte ptr [rax], al
+0x22ae908001a:	add	byte ptr [rax], al
+0x22ae908001c:	add	byte ptr [rax], al
+0x22ae908001e:	add	byte ptr [rax], al
+0x22ae9080020:	add	byte ptr [rax], al
+0x22ae9080022:	add	byte ptr [rax], al
+0x22ae9080024:	add	byte ptr [rax], al
+0x22ae9080026:	add	byte ptr [rax], al
+0x22ae9080028:	add	byte ptr [rax], al
+0x22ae908002a:	add	byte ptr [rax], al
+0x22ae908002c:	add	byte ptr [rax], al
+0x22ae908002e:	add	byte ptr [rax], al
+0x22ae9080030:	add	byte ptr [rax], al
+0x22ae9080032:	add	byte ptr [rax], al
+0x22ae9080034:	add	byte ptr [rax], al
+0x22ae9080036:	add	byte ptr [rax], al
+0x22ae9080038:	add	byte ptr [rax], al
+0x22ae908003a:	add	byte ptr [rax], al
+0x22ae908003c:	add	byte ptr [rax], al
+0x22ae908003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae90d0000	0x22ae90dffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae90d0000:	add	byte ptr [rax], al
+0x22ae90d0002:	add	byte ptr [rax], al
+0x22ae90d0004:	add	byte ptr [rax], al
+0x22ae90d0006:	add	byte ptr [rax], al
+0x22ae90d0008:	add	byte ptr [rax], al
+0x22ae90d000a:	add	byte ptr [rax], al
+0x22ae90d000c:	add	byte ptr [rax], al
+0x22ae90d000e:	add	byte ptr [rax], al
+0x22ae90d0010:	add	byte ptr [rax], al
+0x22ae90d0012:	add	byte ptr [rax], al
+0x22ae90d0014:	add	byte ptr [rax], al
+0x22ae90d0016:	add	byte ptr [rax], al
+0x22ae90d0018:	add	byte ptr [rax], al
+0x22ae90d001a:	add	byte ptr [rax], al
+0x22ae90d001c:	add	byte ptr [rax], al
+0x22ae90d001e:	add	byte ptr [rax], al
+0x22ae90d0020:	add	byte ptr [rax], al
+0x22ae90d0022:	add	byte ptr [rax], al
+0x22ae90d0024:	add	byte ptr [rax], al
+0x22ae90d0026:	add	byte ptr [rax], al
+0x22ae90d0028:	add	byte ptr [rax], al
+0x22ae90d002a:	add	byte ptr [rax], al
+0x22ae90d002c:	add	byte ptr [rax], al
+0x22ae90d002e:	add	byte ptr [rax], al
+0x22ae90d0030:	add	byte ptr [rax], al
+0x22ae90d0032:	add	byte ptr [rax], al
+0x22ae90d0034:	add	byte ptr [rax], al
+0x22ae90d0036:	add	byte ptr [rax], al
+0x22ae90d0038:	add	byte ptr [rax], al
+0x22ae90d003a:	add	byte ptr [rax], al
+0x22ae90d003c:	add	byte ptr [rax], al
+0x22ae90d003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae90c0000	0x22ae90cffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae90c0000:	add	byte ptr [rax], al
+0x22ae90c0002:	add	byte ptr [rax], al
+0x22ae90c0004:	add	byte ptr [rax], al
+0x22ae90c0006:	add	byte ptr [rax], al
+0x22ae90c0008:	add	byte ptr [rax], al
+0x22ae90c000a:	add	byte ptr [rax], al
+0x22ae90c000c:	add	byte ptr [rax], al
+0x22ae90c000e:	add	byte ptr [rax], al
+0x22ae90c0010:	add	byte ptr [rax], al
+0x22ae90c0012:	add	byte ptr [rax], al
+0x22ae90c0014:	add	byte ptr [rax], al
+0x22ae90c0016:	add	byte ptr [rax], al
+0x22ae90c0018:	add	byte ptr [rax], al
+0x22ae90c001a:	add	byte ptr [rax], al
+0x22ae90c001c:	add	byte ptr [rax], al
+0x22ae90c001e:	add	byte ptr [rax], al
+0x22ae90c0020:	add	byte ptr [rax], al
+0x22ae90c0022:	add	byte ptr [rax], al
+0x22ae90c0024:	add	byte ptr [rax], al
+0x22ae90c0026:	add	byte ptr [rax], al
+0x22ae90c0028:	add	byte ptr [rax], al
+0x22ae90c002a:	add	byte ptr [rax], al
+0x22ae90c002c:	add	byte ptr [rax], al
+0x22ae90c002e:	add	byte ptr [rax], al
+0x22ae90c0030:	add	byte ptr [rax], al
+0x22ae90c0032:	add	byte ptr [rax], al
+0x22ae90c0034:	add	byte ptr [rax], al
+0x22ae90c0036:	add	byte ptr [rax], al
+0x22ae90c0038:	add	byte ptr [rax], al
+0x22ae90c003a:	add	byte ptr [rax], al
+0x22ae90c003c:	add	byte ptr [rax], al
+0x22ae90c003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae90b0000	0x22ae90bffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae90b0000:	add	byte ptr [rax], al
+0x22ae90b0002:	add	byte ptr [rax], al
+0x22ae90b0004:	add	byte ptr [rax], al
+0x22ae90b0006:	add	byte ptr [rax], al
+0x22ae90b0008:	add	byte ptr [rax], al
+0x22ae90b000a:	add	byte ptr [rax], al
+0x22ae90b000c:	add	byte ptr [rax], al
+0x22ae90b000e:	add	byte ptr [rax], al
+0x22ae90b0010:	add	byte ptr [rax], al
+0x22ae90b0012:	add	byte ptr [rax], al
+0x22ae90b0014:	add	byte ptr [rax], al
+0x22ae90b0016:	add	byte ptr [rax], al
+0x22ae90b0018:	add	byte ptr [rax], al
+0x22ae90b001a:	add	byte ptr [rax], al
+0x22ae90b001c:	add	byte ptr [rax], al
+0x22ae90b001e:	add	byte ptr [rax], al
+0x22ae90b0020:	add	byte ptr [rax], al
+0x22ae90b0022:	add	byte ptr [rax], al
+0x22ae90b0024:	add	byte ptr [rax], al
+0x22ae90b0026:	add	byte ptr [rax], al
+0x22ae90b0028:	add	byte ptr [rax], al
+0x22ae90b002a:	add	byte ptr [rax], al
+0x22ae90b002c:	add	byte ptr [rax], al
+0x22ae90b002e:	add	byte ptr [rax], al
+0x22ae90b0030:	add	byte ptr [rax], al
+0x22ae90b0032:	add	byte ptr [rax], al
+0x22ae90b0034:	add	byte ptr [rax], al
+0x22ae90b0036:	add	byte ptr [rax], al
+0x22ae90b0038:	add	byte ptr [rax], al
+0x22ae90b003a:	add	byte ptr [rax], al
+0x22ae90b003c:	add	byte ptr [rax], al
+0x22ae90b003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae90f0000	0x22ae90fffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae90f0000:	add	byte ptr [rax], al
+0x22ae90f0002:	add	byte ptr [rax], al
+0x22ae90f0004:	add	byte ptr [rax], al
+0x22ae90f0006:	add	byte ptr [rax], al
+0x22ae90f0008:	add	byte ptr [rax], al
+0x22ae90f000a:	add	byte ptr [rax], al
+0x22ae90f000c:	add	byte ptr [rax], al
+0x22ae90f000e:	add	byte ptr [rax], al
+0x22ae90f0010:	add	byte ptr [rax], al
+0x22ae90f0012:	add	byte ptr [rax], al
+0x22ae90f0014:	add	byte ptr [rax], al
+0x22ae90f0016:	add	byte ptr [rax], al
+0x22ae90f0018:	add	byte ptr [rax], al
+0x22ae90f001a:	add	byte ptr [rax], al
+0x22ae90f001c:	add	byte ptr [rax], al
+0x22ae90f001e:	add	byte ptr [rax], al
+0x22ae90f0020:	add	byte ptr [rax], al
+0x22ae90f0022:	add	byte ptr [rax], al
+0x22ae90f0024:	add	byte ptr [rax], al
+0x22ae90f0026:	add	byte ptr [rax], al
+0x22ae90f0028:	add	byte ptr [rax], al
+0x22ae90f002a:	add	byte ptr [rax], al
+0x22ae90f002c:	add	byte ptr [rax], al
+0x22ae90f002e:	add	byte ptr [rax], al
+0x22ae90f0030:	add	byte ptr [rax], al
+0x22ae90f0032:	add	byte ptr [rax], al
+0x22ae90f0034:	add	byte ptr [rax], al
+0x22ae90f0036:	add	byte ptr [rax], al
+0x22ae90f0038:	add	byte ptr [rax], al
+0x22ae90f003a:	add	byte ptr [rax], al
+0x22ae90f003c:	add	byte ptr [rax], al
+0x22ae90f003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae90e0000	0x22ae90effff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae90e0000:	add	byte ptr [rax], al
+0x22ae90e0002:	add	byte ptr [rax], al
+0x22ae90e0004:	add	byte ptr [rax], al
+0x22ae90e0006:	add	byte ptr [rax], al
+0x22ae90e0008:	add	byte ptr [rax], al
+0x22ae90e000a:	add	byte ptr [rax], al
+0x22ae90e000c:	add	byte ptr [rax], al
+0x22ae90e000e:	add	byte ptr [rax], al
+0x22ae90e0010:	add	byte ptr [rax], al
+0x22ae90e0012:	add	byte ptr [rax], al
+0x22ae90e0014:	add	byte ptr [rax], al
+0x22ae90e0016:	add	byte ptr [rax], al
+0x22ae90e0018:	add	byte ptr [rax], al
+0x22ae90e001a:	add	byte ptr [rax], al
+0x22ae90e001c:	add	byte ptr [rax], al
+0x22ae90e001e:	add	byte ptr [rax], al
+0x22ae90e0020:	add	byte ptr [rax], al
+0x22ae90e0022:	add	byte ptr [rax], al
+0x22ae90e0024:	add	byte ptr [rax], al
+0x22ae90e0026:	add	byte ptr [rax], al
+0x22ae90e0028:	add	byte ptr [rax], al
+0x22ae90e002a:	add	byte ptr [rax], al
+0x22ae90e002c:	add	byte ptr [rax], al
+0x22ae90e002e:	add	byte ptr [rax], al
+0x22ae90e0030:	add	byte ptr [rax], al
+0x22ae90e0032:	add	byte ptr [rax], al
+0x22ae90e0034:	add	byte ptr [rax], al
+0x22ae90e0036:	add	byte ptr [rax], al
+0x22ae90e0038:	add	byte ptr [rax], al
+0x22ae90e003a:	add	byte ptr [rax], al
+0x22ae90e003c:	add	byte ptr [rax], al
+0x22ae90e003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae9160000	0x22ae916ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae9160000:	add	byte ptr [rax], al
+0x22ae9160002:	add	byte ptr [rax], al
+0x22ae9160004:	add	byte ptr [rax], al
+0x22ae9160006:	add	byte ptr [rax], al
+0x22ae9160008:	add	byte ptr [rax], al
+0x22ae916000a:	add	byte ptr [rax], al
+0x22ae916000c:	add	byte ptr [rax], al
+0x22ae916000e:	add	byte ptr [rax], al
+0x22ae9160010:	add	byte ptr [rax], al
+0x22ae9160012:	add	byte ptr [rax], al
+0x22ae9160014:	add	byte ptr [rax], al
+0x22ae9160016:	add	byte ptr [rax], al
+0x22ae9160018:	add	byte ptr [rax], al
+0x22ae916001a:	add	byte ptr [rax], al
+0x22ae916001c:	add	byte ptr [rax], al
+0x22ae916001e:	add	byte ptr [rax], al
+0x22ae9160020:	add	byte ptr [rax], al
+0x22ae9160022:	add	byte ptr [rax], al
+0x22ae9160024:	add	byte ptr [rax], al
+0x22ae9160026:	add	byte ptr [rax], al
+0x22ae9160028:	add	byte ptr [rax], al
+0x22ae916002a:	add	byte ptr [rax], al
+0x22ae916002c:	add	byte ptr [rax], al
+0x22ae916002e:	add	byte ptr [rax], al
+0x22ae9160030:	add	byte ptr [rax], al
+0x22ae9160032:	add	byte ptr [rax], al
+0x22ae9160034:	add	byte ptr [rax], al
+0x22ae9160036:	add	byte ptr [rax], al
+0x22ae9160038:	add	byte ptr [rax], al
+0x22ae916003a:	add	byte ptr [rax], al
+0x22ae916003c:	add	byte ptr [rax], al
+0x22ae916003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae9130000	0x22ae913ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae9130000:	add	byte ptr [rax], al
+0x22ae9130002:	add	byte ptr [rax], al
+0x22ae9130004:	add	byte ptr [rax], al
+0x22ae9130006:	add	byte ptr [rax], al
+0x22ae9130008:	add	byte ptr [rax], al
+0x22ae913000a:	add	byte ptr [rax], al
+0x22ae913000c:	add	byte ptr [rax], al
+0x22ae913000e:	add	byte ptr [rax], al
+0x22ae9130010:	add	byte ptr [rax], al
+0x22ae9130012:	add	byte ptr [rax], al
+0x22ae9130014:	add	byte ptr [rax], al
+0x22ae9130016:	add	byte ptr [rax], al
+0x22ae9130018:	add	byte ptr [rax], al
+0x22ae913001a:	add	byte ptr [rax], al
+0x22ae913001c:	add	byte ptr [rax], al
+0x22ae913001e:	add	byte ptr [rax], al
+0x22ae9130020:	add	byte ptr [rax], al
+0x22ae9130022:	add	byte ptr [rax], al
+0x22ae9130024:	add	byte ptr [rax], al
+0x22ae9130026:	add	byte ptr [rax], al
+0x22ae9130028:	add	byte ptr [rax], al
+0x22ae913002a:	add	byte ptr [rax], al
+0x22ae913002c:	add	byte ptr [rax], al
+0x22ae913002e:	add	byte ptr [rax], al
+0x22ae9130030:	add	byte ptr [rax], al
+0x22ae9130032:	add	byte ptr [rax], al
+0x22ae9130034:	add	byte ptr [rax], al
+0x22ae9130036:	add	byte ptr [rax], al
+0x22ae9130038:	add	byte ptr [rax], al
+0x22ae913003a:	add	byte ptr [rax], al
+0x22ae913003c:	add	byte ptr [rax], al
+0x22ae913003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae9120000	0x22ae912ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae9120000:	add	byte ptr [rax], al
+0x22ae9120002:	add	byte ptr [rax], al
+0x22ae9120004:	add	byte ptr [rax], al
+0x22ae9120006:	add	byte ptr [rax], al
+0x22ae9120008:	add	byte ptr [rax], al
+0x22ae912000a:	add	byte ptr [rax], al
+0x22ae912000c:	add	byte ptr [rax], al
+0x22ae912000e:	add	byte ptr [rax], al
+0x22ae9120010:	add	byte ptr [rax], al
+0x22ae9120012:	add	byte ptr [rax], al
+0x22ae9120014:	add	byte ptr [rax], al
+0x22ae9120016:	add	byte ptr [rax], al
+0x22ae9120018:	add	byte ptr [rax], al
+0x22ae912001a:	add	byte ptr [rax], al
+0x22ae912001c:	add	byte ptr [rax], al
+0x22ae912001e:	add	byte ptr [rax], al
+0x22ae9120020:	add	byte ptr [rax], al
+0x22ae9120022:	add	byte ptr [rax], al
+0x22ae9120024:	add	byte ptr [rax], al
+0x22ae9120026:	add	byte ptr [rax], al
+0x22ae9120028:	add	byte ptr [rax], al
+0x22ae912002a:	add	byte ptr [rax], al
+0x22ae912002c:	add	byte ptr [rax], al
+0x22ae912002e:	add	byte ptr [rax], al
+0x22ae9120030:	add	byte ptr [rax], al
+0x22ae9120032:	add	byte ptr [rax], al
+0x22ae9120034:	add	byte ptr [rax], al
+0x22ae9120036:	add	byte ptr [rax], al
+0x22ae9120038:	add	byte ptr [rax], al
+0x22ae912003a:	add	byte ptr [rax], al
+0x22ae912003c:	add	byte ptr [rax], al
+0x22ae912003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae9110000	0x22ae911ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+70 2c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 p,..............
+53 56 57 41 57 41 56 48 89 cb 4c 8b 8c 24 50 ff SVWAWAVH..L..$P.
+ff ff 48 81 ec b0 00 00 00 48 8b 43 10 48 83 e8 ..H......H.C.H..
+01 48 89 44 24 68 48 89 44 24 50 49 89 de 48 89 .H.D$hH.D$PI..H.	
+0x22ae9110000:	jo	0x22ae911002e
+0x22ae9110002:	add	byte ptr [rax], al
+0x22ae9110004:	add	byte ptr [rax], al
+0x22ae9110006:	add	byte ptr [rax], al
+0x22ae9110008:	add	byte ptr [rax], al
+0x22ae911000a:	add	byte ptr [rax], al
+0x22ae911000c:	add	byte ptr [rax], al
+0x22ae911000e:	add	byte ptr [rax], al
+0x22ae9110010:	push	rbx
+0x22ae9110011:	push	rsi
+0x22ae9110012:	push	rdi
+0x22ae9110013:	push	r15
+0x22ae9110015:	push	r14
+0x22ae9110017:	mov	rbx, rcx
+0x22ae911001a:	mov	r9, qword ptr [rsp - 0xb0]
+0x22ae9110022:	sub	rsp, 0xb0
+0x22ae9110029:	mov	rax, qword ptr [rbx + 0x10]
+0x22ae911002d:	sub	rax, 1
+0x22ae9110031:	mov	qword ptr [rsp + 0x68], rax
+0x22ae9110036:	mov	qword ptr [rsp + 0x50], rax
+0x22ae911003b:	mov	r14, rbx
+3116	splunkd.exe	0x22ae9150000	0x22ae915ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae9150000:	add	byte ptr [rax], al
+0x22ae9150002:	add	byte ptr [rax], al
+0x22ae9150004:	add	byte ptr [rax], al
+0x22ae9150006:	add	byte ptr [rax], al
+0x22ae9150008:	add	byte ptr [rax], al
+0x22ae915000a:	add	byte ptr [rax], al
+0x22ae915000c:	add	byte ptr [rax], al
+0x22ae915000e:	add	byte ptr [rax], al
+0x22ae9150010:	add	byte ptr [rax], al
+0x22ae9150012:	add	byte ptr [rax], al
+0x22ae9150014:	add	byte ptr [rax], al
+0x22ae9150016:	add	byte ptr [rax], al
+0x22ae9150018:	add	byte ptr [rax], al
+0x22ae915001a:	add	byte ptr [rax], al
+0x22ae915001c:	add	byte ptr [rax], al
+0x22ae915001e:	add	byte ptr [rax], al
+0x22ae9150020:	add	byte ptr [rax], al
+0x22ae9150022:	add	byte ptr [rax], al
+0x22ae9150024:	add	byte ptr [rax], al
+0x22ae9150026:	add	byte ptr [rax], al
+0x22ae9150028:	add	byte ptr [rax], al
+0x22ae915002a:	add	byte ptr [rax], al
+0x22ae915002c:	add	byte ptr [rax], al
+0x22ae915002e:	add	byte ptr [rax], al
+0x22ae9150030:	add	byte ptr [rax], al
+0x22ae9150032:	add	byte ptr [rax], al
+0x22ae9150034:	add	byte ptr [rax], al
+0x22ae9150036:	add	byte ptr [rax], al
+0x22ae9150038:	add	byte ptr [rax], al
+0x22ae915003a:	add	byte ptr [rax], al
+0x22ae915003c:	add	byte ptr [rax], al
+0x22ae915003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae9140000	0x22ae914ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae9140000:	add	byte ptr [rax], al
+0x22ae9140002:	add	byte ptr [rax], al
+0x22ae9140004:	add	byte ptr [rax], al
+0x22ae9140006:	add	byte ptr [rax], al
+0x22ae9140008:	add	byte ptr [rax], al
+0x22ae914000a:	add	byte ptr [rax], al
+0x22ae914000c:	add	byte ptr [rax], al
+0x22ae914000e:	add	byte ptr [rax], al
+0x22ae9140010:	add	byte ptr [rax], al
+0x22ae9140012:	add	byte ptr [rax], al
+0x22ae9140014:	add	byte ptr [rax], al
+0x22ae9140016:	add	byte ptr [rax], al
+0x22ae9140018:	add	byte ptr [rax], al
+0x22ae914001a:	add	byte ptr [rax], al
+0x22ae914001c:	add	byte ptr [rax], al
+0x22ae914001e:	add	byte ptr [rax], al
+0x22ae9140020:	add	byte ptr [rax], al
+0x22ae9140022:	add	byte ptr [rax], al
+0x22ae9140024:	add	byte ptr [rax], al
+0x22ae9140026:	add	byte ptr [rax], al
+0x22ae9140028:	add	byte ptr [rax], al
+0x22ae914002a:	add	byte ptr [rax], al
+0x22ae914002c:	add	byte ptr [rax], al
+0x22ae914002e:	add	byte ptr [rax], al
+0x22ae9140030:	add	byte ptr [rax], al
+0x22ae9140032:	add	byte ptr [rax], al
+0x22ae9140034:	add	byte ptr [rax], al
+0x22ae9140036:	add	byte ptr [rax], al
+0x22ae9140038:	add	byte ptr [rax], al
+0x22ae914003a:	add	byte ptr [rax], al
+0x22ae914003c:	add	byte ptr [rax], al
+0x22ae914003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae9190000	0x22ae919ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae9190000:	add	byte ptr [rax], al
+0x22ae9190002:	add	byte ptr [rax], al
+0x22ae9190004:	add	byte ptr [rax], al
+0x22ae9190006:	add	byte ptr [rax], al
+0x22ae9190008:	add	byte ptr [rax], al
+0x22ae919000a:	add	byte ptr [rax], al
+0x22ae919000c:	add	byte ptr [rax], al
+0x22ae919000e:	add	byte ptr [rax], al
+0x22ae9190010:	add	byte ptr [rax], al
+0x22ae9190012:	add	byte ptr [rax], al
+0x22ae9190014:	add	byte ptr [rax], al
+0x22ae9190016:	add	byte ptr [rax], al
+0x22ae9190018:	add	byte ptr [rax], al
+0x22ae919001a:	add	byte ptr [rax], al
+0x22ae919001c:	add	byte ptr [rax], al
+0x22ae919001e:	add	byte ptr [rax], al
+0x22ae9190020:	add	byte ptr [rax], al
+0x22ae9190022:	add	byte ptr [rax], al
+0x22ae9190024:	add	byte ptr [rax], al
+0x22ae9190026:	add	byte ptr [rax], al
+0x22ae9190028:	add	byte ptr [rax], al
+0x22ae919002a:	add	byte ptr [rax], al
+0x22ae919002c:	add	byte ptr [rax], al
+0x22ae919002e:	add	byte ptr [rax], al
+0x22ae9190030:	add	byte ptr [rax], al
+0x22ae9190032:	add	byte ptr [rax], al
+0x22ae9190034:	add	byte ptr [rax], al
+0x22ae9190036:	add	byte ptr [rax], al
+0x22ae9190038:	add	byte ptr [rax], al
+0x22ae919003a:	add	byte ptr [rax], al
+0x22ae919003c:	add	byte ptr [rax], al
+0x22ae919003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae9180000	0x22ae918ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+40 36 00 00 00 00 00 00 00 00 00 00 00 00 00 00 @6..............
+53 56 57 41 57 41 56 48 89 cb 4c 8b 8c 24 60 ff SVWAWAVH..L..$`.
+ff ff 48 81 ec a0 00 00 00 48 8b 43 10 48 83 e8 ..H......H.C.H..
+01 48 89 44 24 68 48 89 44 24 70 48 89 44 24 78 .H.D$hH.D$pH.D$x	
+0x22ae9180000:	add	byte ptr ss:[rax], al
+0x22ae9180004:	add	byte ptr [rax], al
+0x22ae9180006:	add	byte ptr [rax], al
+0x22ae9180008:	add	byte ptr [rax], al
+0x22ae918000a:	add	byte ptr [rax], al
+0x22ae918000c:	add	byte ptr [rax], al
+0x22ae918000e:	add	byte ptr [rax], al
+0x22ae9180010:	push	rbx
+0x22ae9180011:	push	rsi
+0x22ae9180012:	push	rdi
+0x22ae9180013:	push	r15
+0x22ae9180015:	push	r14
+0x22ae9180017:	mov	rbx, rcx
+0x22ae918001a:	mov	r9, qword ptr [rsp - 0xa0]
+0x22ae9180022:	sub	rsp, 0xa0
+0x22ae9180029:	mov	rax, qword ptr [rbx + 0x10]
+0x22ae918002d:	sub	rax, 1
+0x22ae9180031:	mov	qword ptr [rsp + 0x68], rax
+0x22ae9180036:	mov	qword ptr [rsp + 0x70], rax
+0x22ae918003b:	mov	qword ptr [rsp + 0x78], rax
+3116	splunkd.exe	0x22ae9170000	0x22ae917ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae9170000:	add	byte ptr [rax], al
+0x22ae9170002:	add	byte ptr [rax], al
+0x22ae9170004:	add	byte ptr [rax], al
+0x22ae9170006:	add	byte ptr [rax], al
+0x22ae9170008:	add	byte ptr [rax], al
+0x22ae917000a:	add	byte ptr [rax], al
+0x22ae917000c:	add	byte ptr [rax], al
+0x22ae917000e:	add	byte ptr [rax], al
+0x22ae9170010:	add	byte ptr [rax], al
+0x22ae9170012:	add	byte ptr [rax], al
+0x22ae9170014:	add	byte ptr [rax], al
+0x22ae9170016:	add	byte ptr [rax], al
+0x22ae9170018:	add	byte ptr [rax], al
+0x22ae917001a:	add	byte ptr [rax], al
+0x22ae917001c:	add	byte ptr [rax], al
+0x22ae917001e:	add	byte ptr [rax], al
+0x22ae9170020:	add	byte ptr [rax], al
+0x22ae9170022:	add	byte ptr [rax], al
+0x22ae9170024:	add	byte ptr [rax], al
+0x22ae9170026:	add	byte ptr [rax], al
+0x22ae9170028:	add	byte ptr [rax], al
+0x22ae917002a:	add	byte ptr [rax], al
+0x22ae917002c:	add	byte ptr [rax], al
+0x22ae917002e:	add	byte ptr [rax], al
+0x22ae9170030:	add	byte ptr [rax], al
+0x22ae9170032:	add	byte ptr [rax], al
+0x22ae9170034:	add	byte ptr [rax], al
+0x22ae9170036:	add	byte ptr [rax], al
+0x22ae9170038:	add	byte ptr [rax], al
+0x22ae917003a:	add	byte ptr [rax], al
+0x22ae917003c:	add	byte ptr [rax], al
+0x22ae917003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae91b0000	0x22ae91bffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae91b0000:	add	byte ptr [rax], al
+0x22ae91b0002:	add	byte ptr [rax], al
+0x22ae91b0004:	add	byte ptr [rax], al
+0x22ae91b0006:	add	byte ptr [rax], al
+0x22ae91b0008:	add	byte ptr [rax], al
+0x22ae91b000a:	add	byte ptr [rax], al
+0x22ae91b000c:	add	byte ptr [rax], al
+0x22ae91b000e:	add	byte ptr [rax], al
+0x22ae91b0010:	add	byte ptr [rax], al
+0x22ae91b0012:	add	byte ptr [rax], al
+0x22ae91b0014:	add	byte ptr [rax], al
+0x22ae91b0016:	add	byte ptr [rax], al
+0x22ae91b0018:	add	byte ptr [rax], al
+0x22ae91b001a:	add	byte ptr [rax], al
+0x22ae91b001c:	add	byte ptr [rax], al
+0x22ae91b001e:	add	byte ptr [rax], al
+0x22ae91b0020:	add	byte ptr [rax], al
+0x22ae91b0022:	add	byte ptr [rax], al
+0x22ae91b0024:	add	byte ptr [rax], al
+0x22ae91b0026:	add	byte ptr [rax], al
+0x22ae91b0028:	add	byte ptr [rax], al
+0x22ae91b002a:	add	byte ptr [rax], al
+0x22ae91b002c:	add	byte ptr [rax], al
+0x22ae91b002e:	add	byte ptr [rax], al
+0x22ae91b0030:	add	byte ptr [rax], al
+0x22ae91b0032:	add	byte ptr [rax], al
+0x22ae91b0034:	add	byte ptr [rax], al
+0x22ae91b0036:	add	byte ptr [rax], al
+0x22ae91b0038:	add	byte ptr [rax], al
+0x22ae91b003a:	add	byte ptr [rax], al
+0x22ae91b003c:	add	byte ptr [rax], al
+0x22ae91b003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae91a0000	0x22ae91affff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae91a0000:	add	byte ptr [rax], al
+0x22ae91a0002:	add	byte ptr [rax], al
+0x22ae91a0004:	add	byte ptr [rax], al
+0x22ae91a0006:	add	byte ptr [rax], al
+0x22ae91a0008:	add	byte ptr [rax], al
+0x22ae91a000a:	add	byte ptr [rax], al
+0x22ae91a000c:	add	byte ptr [rax], al
+0x22ae91a000e:	add	byte ptr [rax], al
+0x22ae91a0010:	add	byte ptr [rax], al
+0x22ae91a0012:	add	byte ptr [rax], al
+0x22ae91a0014:	add	byte ptr [rax], al
+0x22ae91a0016:	add	byte ptr [rax], al
+0x22ae91a0018:	add	byte ptr [rax], al
+0x22ae91a001a:	add	byte ptr [rax], al
+0x22ae91a001c:	add	byte ptr [rax], al
+0x22ae91a001e:	add	byte ptr [rax], al
+0x22ae91a0020:	add	byte ptr [rax], al
+0x22ae91a0022:	add	byte ptr [rax], al
+0x22ae91a0024:	add	byte ptr [rax], al
+0x22ae91a0026:	add	byte ptr [rax], al
+0x22ae91a0028:	add	byte ptr [rax], al
+0x22ae91a002a:	add	byte ptr [rax], al
+0x22ae91a002c:	add	byte ptr [rax], al
+0x22ae91a002e:	add	byte ptr [rax], al
+0x22ae91a0030:	add	byte ptr [rax], al
+0x22ae91a0032:	add	byte ptr [rax], al
+0x22ae91a0034:	add	byte ptr [rax], al
+0x22ae91a0036:	add	byte ptr [rax], al
+0x22ae91a0038:	add	byte ptr [rax], al
+0x22ae91a003a:	add	byte ptr [rax], al
+0x22ae91a003c:	add	byte ptr [rax], al
+0x22ae91a003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae9220000	0x22ae922ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae9220000:	add	byte ptr [rax], al
+0x22ae9220002:	add	byte ptr [rax], al
+0x22ae9220004:	add	byte ptr [rax], al
+0x22ae9220006:	add	byte ptr [rax], al
+0x22ae9220008:	add	byte ptr [rax], al
+0x22ae922000a:	add	byte ptr [rax], al
+0x22ae922000c:	add	byte ptr [rax], al
+0x22ae922000e:	add	byte ptr [rax], al
+0x22ae9220010:	add	byte ptr [rax], al
+0x22ae9220012:	add	byte ptr [rax], al
+0x22ae9220014:	add	byte ptr [rax], al
+0x22ae9220016:	add	byte ptr [rax], al
+0x22ae9220018:	add	byte ptr [rax], al
+0x22ae922001a:	add	byte ptr [rax], al
+0x22ae922001c:	add	byte ptr [rax], al
+0x22ae922001e:	add	byte ptr [rax], al
+0x22ae9220020:	add	byte ptr [rax], al
+0x22ae9220022:	add	byte ptr [rax], al
+0x22ae9220024:	add	byte ptr [rax], al
+0x22ae9220026:	add	byte ptr [rax], al
+0x22ae9220028:	add	byte ptr [rax], al
+0x22ae922002a:	add	byte ptr [rax], al
+0x22ae922002c:	add	byte ptr [rax], al
+0x22ae922002e:	add	byte ptr [rax], al
+0x22ae9220030:	add	byte ptr [rax], al
+0x22ae9220032:	add	byte ptr [rax], al
+0x22ae9220034:	add	byte ptr [rax], al
+0x22ae9220036:	add	byte ptr [rax], al
+0x22ae9220038:	add	byte ptr [rax], al
+0x22ae922003a:	add	byte ptr [rax], al
+0x22ae922003c:	add	byte ptr [rax], al
+0x22ae922003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae91f0000	0x22ae91fffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae91f0000:	add	byte ptr [rax], al
+0x22ae91f0002:	add	byte ptr [rax], al
+0x22ae91f0004:	add	byte ptr [rax], al
+0x22ae91f0006:	add	byte ptr [rax], al
+0x22ae91f0008:	add	byte ptr [rax], al
+0x22ae91f000a:	add	byte ptr [rax], al
+0x22ae91f000c:	add	byte ptr [rax], al
+0x22ae91f000e:	add	byte ptr [rax], al
+0x22ae91f0010:	add	byte ptr [rax], al
+0x22ae91f0012:	add	byte ptr [rax], al
+0x22ae91f0014:	add	byte ptr [rax], al
+0x22ae91f0016:	add	byte ptr [rax], al
+0x22ae91f0018:	add	byte ptr [rax], al
+0x22ae91f001a:	add	byte ptr [rax], al
+0x22ae91f001c:	add	byte ptr [rax], al
+0x22ae91f001e:	add	byte ptr [rax], al
+0x22ae91f0020:	add	byte ptr [rax], al
+0x22ae91f0022:	add	byte ptr [rax], al
+0x22ae91f0024:	add	byte ptr [rax], al
+0x22ae91f0026:	add	byte ptr [rax], al
+0x22ae91f0028:	add	byte ptr [rax], al
+0x22ae91f002a:	add	byte ptr [rax], al
+0x22ae91f002c:	add	byte ptr [rax], al
+0x22ae91f002e:	add	byte ptr [rax], al
+0x22ae91f0030:	add	byte ptr [rax], al
+0x22ae91f0032:	add	byte ptr [rax], al
+0x22ae91f0034:	add	byte ptr [rax], al
+0x22ae91f0036:	add	byte ptr [rax], al
+0x22ae91f0038:	add	byte ptr [rax], al
+0x22ae91f003a:	add	byte ptr [rax], al
+0x22ae91f003c:	add	byte ptr [rax], al
+0x22ae91f003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae91e0000	0x22ae91effff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+38 37 00 00 00 00 00 00 00 00 00 00 00 00 00 00 87..............
+53 56 57 41 57 41 56 48 89 cb 4c 8b 8c 24 60 ff SVWAWAVH..L..$`.
+ff ff 48 81 ec a0 00 00 00 48 8b 43 10 48 83 e8 ..H......H.C.H..
+01 48 89 44 24 68 48 89 44 24 70 48 89 44 24 78 .H.D$hH.D$pH.D$x	
+0x22ae91e0000:	cmp	byte ptr [rdi], dh
+0x22ae91e0002:	add	byte ptr [rax], al
+0x22ae91e0004:	add	byte ptr [rax], al
+0x22ae91e0006:	add	byte ptr [rax], al
+0x22ae91e0008:	add	byte ptr [rax], al
+0x22ae91e000a:	add	byte ptr [rax], al
+0x22ae91e000c:	add	byte ptr [rax], al
+0x22ae91e000e:	add	byte ptr [rax], al
+0x22ae91e0010:	push	rbx
+0x22ae91e0011:	push	rsi
+0x22ae91e0012:	push	rdi
+0x22ae91e0013:	push	r15
+0x22ae91e0015:	push	r14
+0x22ae91e0017:	mov	rbx, rcx
+0x22ae91e001a:	mov	r9, qword ptr [rsp - 0xa0]
+0x22ae91e0022:	sub	rsp, 0xa0
+0x22ae91e0029:	mov	rax, qword ptr [rbx + 0x10]
+0x22ae91e002d:	sub	rax, 1
+0x22ae91e0031:	mov	qword ptr [rsp + 0x68], rax
+0x22ae91e0036:	mov	qword ptr [rsp + 0x70], rax
+0x22ae91e003b:	mov	qword ptr [rsp + 0x78], rax
+3116	splunkd.exe	0x22ae91d0000	0x22ae91dffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae91d0000:	add	byte ptr [rax], al
+0x22ae91d0002:	add	byte ptr [rax], al
+0x22ae91d0004:	add	byte ptr [rax], al
+0x22ae91d0006:	add	byte ptr [rax], al
+0x22ae91d0008:	add	byte ptr [rax], al
+0x22ae91d000a:	add	byte ptr [rax], al
+0x22ae91d000c:	add	byte ptr [rax], al
+0x22ae91d000e:	add	byte ptr [rax], al
+0x22ae91d0010:	add	byte ptr [rax], al
+0x22ae91d0012:	add	byte ptr [rax], al
+0x22ae91d0014:	add	byte ptr [rax], al
+0x22ae91d0016:	add	byte ptr [rax], al
+0x22ae91d0018:	add	byte ptr [rax], al
+0x22ae91d001a:	add	byte ptr [rax], al
+0x22ae91d001c:	add	byte ptr [rax], al
+0x22ae91d001e:	add	byte ptr [rax], al
+0x22ae91d0020:	add	byte ptr [rax], al
+0x22ae91d0022:	add	byte ptr [rax], al
+0x22ae91d0024:	add	byte ptr [rax], al
+0x22ae91d0026:	add	byte ptr [rax], al
+0x22ae91d0028:	add	byte ptr [rax], al
+0x22ae91d002a:	add	byte ptr [rax], al
+0x22ae91d002c:	add	byte ptr [rax], al
+0x22ae91d002e:	add	byte ptr [rax], al
+0x22ae91d0030:	add	byte ptr [rax], al
+0x22ae91d0032:	add	byte ptr [rax], al
+0x22ae91d0034:	add	byte ptr [rax], al
+0x22ae91d0036:	add	byte ptr [rax], al
+0x22ae91d0038:	add	byte ptr [rax], al
+0x22ae91d003a:	add	byte ptr [rax], al
+0x22ae91d003c:	add	byte ptr [rax], al
+0x22ae91d003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae9210000	0x22ae921ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+b8 27 00 00 00 00 00 00 00 00 00 00 00 00 00 00 .'..............
+53 56 57 41 57 41 56 48 89 cb 4c 8b 8c 24 60 ff SVWAWAVH..L..$`.
+ff ff 48 81 ec a0 00 00 00 48 8b 43 10 48 83 e8 ..H......H.C.H..
+01 48 89 44 24 68 48 89 44 24 70 48 89 44 24 78 .H.D$hH.D$pH.D$x	
+0x22ae9210000:	mov	eax, 0x27
+0x22ae9210005:	add	byte ptr [rax], al
+0x22ae9210007:	add	byte ptr [rax], al
+0x22ae9210009:	add	byte ptr [rax], al
+0x22ae921000b:	add	byte ptr [rax], al
+0x22ae921000d:	add	byte ptr [rax], al
+0x22ae921000f:	add	byte ptr [rbx + 0x56], dl
+0x22ae9210012:	push	rdi
+0x22ae9210013:	push	r15
+0x22ae9210015:	push	r14
+0x22ae9210017:	mov	rbx, rcx
+0x22ae921001a:	mov	r9, qword ptr [rsp - 0xa0]
+0x22ae9210022:	sub	rsp, 0xa0
+0x22ae9210029:	mov	rax, qword ptr [rbx + 0x10]
+0x22ae921002d:	sub	rax, 1
+0x22ae9210031:	mov	qword ptr [rsp + 0x68], rax
+0x22ae9210036:	mov	qword ptr [rsp + 0x70], rax
+0x22ae921003b:	mov	qword ptr [rsp + 0x78], rax
+3116	splunkd.exe	0x22ae9200000	0x22ae920ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae9200000:	add	byte ptr [rax], al
+0x22ae9200002:	add	byte ptr [rax], al
+0x22ae9200004:	add	byte ptr [rax], al
+0x22ae9200006:	add	byte ptr [rax], al
+0x22ae9200008:	add	byte ptr [rax], al
+0x22ae920000a:	add	byte ptr [rax], al
+0x22ae920000c:	add	byte ptr [rax], al
+0x22ae920000e:	add	byte ptr [rax], al
+0x22ae9200010:	add	byte ptr [rax], al
+0x22ae9200012:	add	byte ptr [rax], al
+0x22ae9200014:	add	byte ptr [rax], al
+0x22ae9200016:	add	byte ptr [rax], al
+0x22ae9200018:	add	byte ptr [rax], al
+0x22ae920001a:	add	byte ptr [rax], al
+0x22ae920001c:	add	byte ptr [rax], al
+0x22ae920001e:	add	byte ptr [rax], al
+0x22ae9200020:	add	byte ptr [rax], al
+0x22ae9200022:	add	byte ptr [rax], al
+0x22ae9200024:	add	byte ptr [rax], al
+0x22ae9200026:	add	byte ptr [rax], al
+0x22ae9200028:	add	byte ptr [rax], al
+0x22ae920002a:	add	byte ptr [rax], al
+0x22ae920002c:	add	byte ptr [rax], al
+0x22ae920002e:	add	byte ptr [rax], al
+0x22ae9200030:	add	byte ptr [rax], al
+0x22ae9200032:	add	byte ptr [rax], al
+0x22ae9200034:	add	byte ptr [rax], al
+0x22ae9200036:	add	byte ptr [rax], al
+0x22ae9200038:	add	byte ptr [rax], al
+0x22ae920003a:	add	byte ptr [rax], al
+0x22ae920003c:	add	byte ptr [rax], al
+0x22ae920003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae9250000	0x22ae925ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+60 52 00 00 00 00 00 00 00 00 00 00 00 00 00 00 `R..............
+53 56 57 41 57 41 56 48 89 cb 4c 8b 8c 24 70 ff SVWAWAVH..L..$p.
+ff ff 48 81 ec 90 00 00 00 48 8b 43 10 48 83 e8 ..H......H.C.H..
+01 48 89 44 24 68 49 89 de 48 89 d8 48 8b 50 08 .H.D$hI..H..H.P.	
+3116	splunkd.exe	0x22ae9240000	0x22ae924ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+60 52 00 00 00 00 00 00 00 00 00 00 00 00 00 00 `R..............
+53 56 57 41 57 41 56 48 89 cb 4c 8b 8c 24 70 ff SVWAWAVH..L..$p.
+ff ff 48 81 ec 90 00 00 00 48 8b 43 10 48 83 e8 ..H......H.C.H..
+01 48 89 44 24 68 49 89 de 48 89 d8 48 8b 50 08 .H.D$hI..H..H.P.	
+3116	splunkd.exe	0x22ae93c0000	0x22ae93dffff	VadS	PAGE_EXECUTE_READWRITE	32	1	Disabled	N/A	
+b8 11 01 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+53 56 57 41 57 41 56 48 89 cb 4c 8b 8c 24 a0 fe SVWAWAVH..L..$..
+ff ff 48 81 ec 60 01 00 00 48 8b 43 10 48 83 e8 ..H..`...H.C.H..
+01 48 8d 54 24 68 49 c7 c0 11 00 00 00 48 89 02 .H.T$hI......H..	
+0x22ae93c0000:	mov	eax, 0x111
+0x22ae93c0005:	add	byte ptr [rax], al
+0x22ae93c0007:	add	byte ptr [rax], al
+0x22ae93c0009:	add	byte ptr [rax], al
+0x22ae93c000b:	add	byte ptr [rax], al
+0x22ae93c000d:	add	byte ptr [rax], al
+0x22ae93c000f:	add	byte ptr [rbx + 0x56], dl
+0x22ae93c0012:	push	rdi
+0x22ae93c0013:	push	r15
+0x22ae93c0015:	push	r14
+0x22ae93c0017:	mov	rbx, rcx
+0x22ae93c001a:	mov	r9, qword ptr [rsp - 0x160]
+0x22ae93c0022:	sub	rsp, 0x160
+0x22ae93c0029:	mov	rax, qword ptr [rbx + 0x10]
+0x22ae93c002d:	sub	rax, 1
+0x22ae93c0031:	lea	rdx, [rsp + 0x68]
+0x22ae93c0036:	mov	r8, 0x11
+0x22ae93c003d:	mov	qword ptr [rdx], rax
+3116	splunkd.exe	0x22ae9420000	0x22ae943ffff	VadS	PAGE_EXECUTE_READWRITE	32	1	Disabled	N/A	
+48 0e 01 00 00 00 00 00 00 00 00 00 00 00 00 00 H...............
+53 56 57 41 57 41 56 48 89 cb 4c 8b 8c 24 60 fe SVWAWAVH..L..$`.
+ff ff 48 81 ec a0 01 00 00 48 8b 43 10 48 83 e8 ..H......H.C.H..
+01 48 8d 54 24 78 49 c7 c0 11 00 00 00 48 89 02 .H.T$xI......H..	
+3116	splunkd.exe	0x22ae9400000	0x22ae941ffff	VadS	PAGE_EXECUTE_READWRITE	32	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae9400000:	add	byte ptr [rax], al
+0x22ae9400002:	add	byte ptr [rax], al
+0x22ae9400004:	add	byte ptr [rax], al
+0x22ae9400006:	add	byte ptr [rax], al
+0x22ae9400008:	add	byte ptr [rax], al
+0x22ae940000a:	add	byte ptr [rax], al
+0x22ae940000c:	add	byte ptr [rax], al
+0x22ae940000e:	add	byte ptr [rax], al
+0x22ae9400010:	add	byte ptr [rax], al
+0x22ae9400012:	add	byte ptr [rax], al
+0x22ae9400014:	add	byte ptr [rax], al
+0x22ae9400016:	add	byte ptr [rax], al
+0x22ae9400018:	add	byte ptr [rax], al
+0x22ae940001a:	add	byte ptr [rax], al
+0x22ae940001c:	add	byte ptr [rax], al
+0x22ae940001e:	add	byte ptr [rax], al
+0x22ae9400020:	add	byte ptr [rax], al
+0x22ae9400022:	add	byte ptr [rax], al
+0x22ae9400024:	add	byte ptr [rax], al
+0x22ae9400026:	add	byte ptr [rax], al
+0x22ae9400028:	add	byte ptr [rax], al
+0x22ae940002a:	add	byte ptr [rax], al
+0x22ae940002c:	add	byte ptr [rax], al
+0x22ae940002e:	add	byte ptr [rax], al
+0x22ae9400030:	add	byte ptr [rax], al
+0x22ae9400032:	add	byte ptr [rax], al
+0x22ae9400034:	add	byte ptr [rax], al
+0x22ae9400036:	add	byte ptr [rax], al
+0x22ae9400038:	add	byte ptr [rax], al
+0x22ae940003a:	add	byte ptr [rax], al
+0x22ae940003c:	add	byte ptr [rax], al
+0x22ae940003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae9460000	0x22ae947ffff	VadS	PAGE_EXECUTE_READWRITE	32	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae9460000:	add	byte ptr [rax], al
+0x22ae9460002:	add	byte ptr [rax], al
+0x22ae9460004:	add	byte ptr [rax], al
+0x22ae9460006:	add	byte ptr [rax], al
+0x22ae9460008:	add	byte ptr [rax], al
+0x22ae946000a:	add	byte ptr [rax], al
+0x22ae946000c:	add	byte ptr [rax], al
+0x22ae946000e:	add	byte ptr [rax], al
+0x22ae9460010:	add	byte ptr [rax], al
+0x22ae9460012:	add	byte ptr [rax], al
+0x22ae9460014:	add	byte ptr [rax], al
+0x22ae9460016:	add	byte ptr [rax], al
+0x22ae9460018:	add	byte ptr [rax], al
+0x22ae946001a:	add	byte ptr [rax], al
+0x22ae946001c:	add	byte ptr [rax], al
+0x22ae946001e:	add	byte ptr [rax], al
+0x22ae9460020:	add	byte ptr [rax], al
+0x22ae9460022:	add	byte ptr [rax], al
+0x22ae9460024:	add	byte ptr [rax], al
+0x22ae9460026:	add	byte ptr [rax], al
+0x22ae9460028:	add	byte ptr [rax], al
+0x22ae946002a:	add	byte ptr [rax], al
+0x22ae946002c:	add	byte ptr [rax], al
+0x22ae946002e:	add	byte ptr [rax], al
+0x22ae9460030:	add	byte ptr [rax], al
+0x22ae9460032:	add	byte ptr [rax], al
+0x22ae9460034:	add	byte ptr [rax], al
+0x22ae9460036:	add	byte ptr [rax], al
+0x22ae9460038:	add	byte ptr [rax], al
+0x22ae946003a:	add	byte ptr [rax], al
+0x22ae946003c:	add	byte ptr [rax], al
+0x22ae946003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae94e0000	0x22ae94fffff	VadS	PAGE_EXECUTE_READWRITE	32	1	Disabled	N/A	
+18 95 01 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+53 56 57 41 57 41 56 48 89 cb 4c 8b 8c 24 70 fe SVWAWAVH..L..$p.
+ff ff 48 81 ec 90 01 00 00 48 8b 43 10 48 83 e8 ..H......H.C.H..
+01 48 8d 54 24 78 49 c7 c0 0d 00 00 00 48 89 02 .H.T$xI......H..	
+0x22ae94e0000:	sbb	byte ptr [rbp + 1], dl
+0x22ae94e0006:	add	byte ptr [rax], al
+0x22ae94e0008:	add	byte ptr [rax], al
+0x22ae94e000a:	add	byte ptr [rax], al
+0x22ae94e000c:	add	byte ptr [rax], al
+0x22ae94e000e:	add	byte ptr [rax], al
+0x22ae94e0010:	push	rbx
+0x22ae94e0011:	push	rsi
+0x22ae94e0012:	push	rdi
+0x22ae94e0013:	push	r15
+0x22ae94e0015:	push	r14
+0x22ae94e0017:	mov	rbx, rcx
+0x22ae94e001a:	mov	r9, qword ptr [rsp - 0x190]
+0x22ae94e0022:	sub	rsp, 0x190
+0x22ae94e0029:	mov	rax, qword ptr [rbx + 0x10]
+0x22ae94e002d:	sub	rax, 1
+0x22ae94e0031:	lea	rdx, [rsp + 0x78]
+0x22ae94e0036:	mov	r8, 0xd
+0x22ae94e003d:	mov	qword ptr [rdx], rax
+3116	splunkd.exe	0x22ae94c0000	0x22ae94dffff	VadS	PAGE_EXECUTE_READWRITE	32	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae94c0000:	add	byte ptr [rax], al
+0x22ae94c0002:	add	byte ptr [rax], al
+0x22ae94c0004:	add	byte ptr [rax], al
+0x22ae94c0006:	add	byte ptr [rax], al
+0x22ae94c0008:	add	byte ptr [rax], al
+0x22ae94c000a:	add	byte ptr [rax], al
+0x22ae94c000c:	add	byte ptr [rax], al
+0x22ae94c000e:	add	byte ptr [rax], al
+0x22ae94c0010:	add	byte ptr [rax], al
+0x22ae94c0012:	add	byte ptr [rax], al
+0x22ae94c0014:	add	byte ptr [rax], al
+0x22ae94c0016:	add	byte ptr [rax], al
+0x22ae94c0018:	add	byte ptr [rax], al
+0x22ae94c001a:	add	byte ptr [rax], al
+0x22ae94c001c:	add	byte ptr [rax], al
+0x22ae94c001e:	add	byte ptr [rax], al
+0x22ae94c0020:	add	byte ptr [rax], al
+0x22ae94c0022:	add	byte ptr [rax], al
+0x22ae94c0024:	add	byte ptr [rax], al
+0x22ae94c0026:	add	byte ptr [rax], al
+0x22ae94c0028:	add	byte ptr [rax], al
+0x22ae94c002a:	add	byte ptr [rax], al
+0x22ae94c002c:	add	byte ptr [rax], al
+0x22ae94c002e:	add	byte ptr [rax], al
+0x22ae94c0030:	add	byte ptr [rax], al
+0x22ae94c0032:	add	byte ptr [rax], al
+0x22ae94c0034:	add	byte ptr [rax], al
+0x22ae94c0036:	add	byte ptr [rax], al
+0x22ae94c0038:	add	byte ptr [rax], al
+0x22ae94c003a:	add	byte ptr [rax], al
+0x22ae94c003c:	add	byte ptr [rax], al
+0x22ae94c003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae9540000	0x22ae955ffff	VadS	PAGE_EXECUTE_READWRITE	32	1	Disabled	N/A	
+e8 31 01 00 00 00 00 00 00 00 00 00 00 00 00 00 .1..............
+53 56 57 41 57 41 56 48 89 cb 4c 8b 8c 24 80 fe SVWAWAVH..L..$..
+ff ff 48 81 ec 80 01 00 00 48 8b 43 10 48 83 e8 ..H......H.C.H..
+01 48 8d 54 24 78 49 c7 c0 0d 00 00 00 48 89 02 .H.T$xI......H..	
+0x22ae9540000:	call	0x22ae9540136
+0x22ae9540005:	add	byte ptr [rax], al
+0x22ae9540007:	add	byte ptr [rax], al
+0x22ae9540009:	add	byte ptr [rax], al
+0x22ae954000b:	add	byte ptr [rax], al
+0x22ae954000d:	add	byte ptr [rax], al
+0x22ae954000f:	add	byte ptr [rbx + 0x56], dl
+0x22ae9540012:	push	rdi
+0x22ae9540013:	push	r15
+0x22ae9540015:	push	r14
+0x22ae9540017:	mov	rbx, rcx
+0x22ae954001a:	mov	r9, qword ptr [rsp - 0x180]
+0x22ae9540022:	sub	rsp, 0x180
+0x22ae9540029:	mov	rax, qword ptr [rbx + 0x10]
+0x22ae954002d:	sub	rax, 1
+0x22ae9540031:	lea	rdx, [rsp + 0x78]
+0x22ae9540036:	mov	r8, 0xd
+0x22ae954003d:	mov	qword ptr [rdx], rax
+3116	splunkd.exe	0x22ae9520000	0x22ae953ffff	VadS	PAGE_EXECUTE_READWRITE	32	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae9520000:	add	byte ptr [rax], al
+0x22ae9520002:	add	byte ptr [rax], al
+0x22ae9520004:	add	byte ptr [rax], al
+0x22ae9520006:	add	byte ptr [rax], al
+0x22ae9520008:	add	byte ptr [rax], al
+0x22ae952000a:	add	byte ptr [rax], al
+0x22ae952000c:	add	byte ptr [rax], al
+0x22ae952000e:	add	byte ptr [rax], al
+0x22ae9520010:	add	byte ptr [rax], al
+0x22ae9520012:	add	byte ptr [rax], al
+0x22ae9520014:	add	byte ptr [rax], al
+0x22ae9520016:	add	byte ptr [rax], al
+0x22ae9520018:	add	byte ptr [rax], al
+0x22ae952001a:	add	byte ptr [rax], al
+0x22ae952001c:	add	byte ptr [rax], al
+0x22ae952001e:	add	byte ptr [rax], al
+0x22ae9520020:	add	byte ptr [rax], al
+0x22ae9520022:	add	byte ptr [rax], al
+0x22ae9520024:	add	byte ptr [rax], al
+0x22ae9520026:	add	byte ptr [rax], al
+0x22ae9520028:	add	byte ptr [rax], al
+0x22ae952002a:	add	byte ptr [rax], al
+0x22ae952002c:	add	byte ptr [rax], al
+0x22ae952002e:	add	byte ptr [rax], al
+0x22ae9520030:	add	byte ptr [rax], al
+0x22ae9520032:	add	byte ptr [rax], al
+0x22ae9520034:	add	byte ptr [rax], al
+0x22ae9520036:	add	byte ptr [rax], al
+0x22ae9520038:	add	byte ptr [rax], al
+0x22ae952003a:	add	byte ptr [rax], al
+0x22ae952003c:	add	byte ptr [rax], al
+0x22ae952003e:	add	byte ptr [rax], al
+3116	splunkd.exe	0x22ae9580000	0x22ae959ffff	VadS	PAGE_EXECUTE_READWRITE	32	1	Disabled	N/A	
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................	
+0x22ae9580000:	add	byte ptr [rax], al
+0x22ae9580002:	add	byte ptr [rax], al
+0x22ae9580004:	add	byte ptr [rax], al
+0x22ae9580006:	add	byte ptr [rax], al
+0x22ae9580008:	add	byte ptr [rax], al
+0x22ae958000a:	add	byte ptr [rax], al
+0x22ae958000c:	add	byte ptr [rax], al
+0x22ae958000e:	add	byte ptr [rax], al
+0x22ae9580010:	add	byte ptr [rax], al
+0x22ae9580012:	add	byte ptr [rax], al
+0x22ae9580014:	add	byte ptr [rax], al
+0x22ae9580016:	add	byte ptr [rax], al
+0x22ae9580018:	add	byte ptr [rax], al
+0x22ae958001a:	add	byte ptr [rax], al
+0x22ae958001c:	add	byte ptr [rax], al
+0x22ae958001e:	add	byte ptr [rax], al
+0x22ae9580020:	add	byte ptr [rax], al
+0x22ae9580022:	add	byte ptr [rax], al
+0x22ae9580024:	add	byte ptr [rax], al
+0x22ae9580026:	add	byte ptr [rax], al
+0x22ae9580028:	add	byte ptr [rax], al
+0x22ae958002a:	add	byte ptr [rax], al
+0x22ae958002c:	add	byte ptr [rax], al
+0x22ae958002e:	add	byte ptr [rax], al
+0x22ae9580030:	add	byte ptr [rax], al
+0x22ae9580032:	add	byte ptr [rax], al
+0x22ae9580034:	add	byte ptr [rax], al
+0x22ae9580036:	add	byte ptr [rax], al
+0x22ae9580038:	add	byte ptr [rax], al
+0x22ae958003a:	add	byte ptr [rax], al
+0x22ae958003c:	add	byte ptr [rax], al
+0x22ae958003e:	add	byte ptr [rax], al
+3128	MsMpEng.exe	0x1f7205b0000	0x1f7205b0fff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	Function prologue	
+55 48 8d 2c 24 48 83 ec 20 48 8b 01 48 8b 49 08 UH.,$H.. H..H.I.
+ff d0 48 8d 65 00 5d c3 cc cc cc cc cc cc cc cc ..H.e.].........
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................	
+0x1f7205b0000:	push	rbp
+0x1f7205b0001:	lea	rbp, [rsp]
+0x1f7205b0005:	sub	rsp, 0x20
+0x1f7205b0009:	mov	rax, qword ptr [rcx]
+0x1f7205b000c:	mov	rcx, qword ptr [rcx + 8]
+0x1f7205b0010:	call	rax
+0x1f7205b0012:	lea	rsp, [rbp]
+0x1f7205b0016:	pop	rbp
+0x1f7205b0017:	ret	
+0x1f7205b0018:	int3	
+0x1f7205b0019:	int3	
+0x1f7205b001a:	int3	
+0x1f7205b001b:	int3	
+0x1f7205b001c:	int3	
+0x1f7205b001d:	int3	
+0x1f7205b001e:	int3	
+0x1f7205b001f:	int3	
+0x1f7205b0020:	int3	
+0x1f7205b0021:	int3	
+0x1f7205b0022:	int3	
+0x1f7205b0023:	int3	
+0x1f7205b0024:	int3	
+0x1f7205b0025:	int3	
+0x1f7205b0026:	int3	
+0x1f7205b0027:	int3	
+0x1f7205b0028:	int3	
+0x1f7205b0029:	int3	
+0x1f7205b002a:	int3	
+0x1f7205b002b:	int3	
+0x1f7205b002c:	int3	
+0x1f7205b002d:	int3	
+0x1f7205b002e:	int3	
+0x1f7205b002f:	int3	
+0x1f7205b0030:	int3	
+0x1f7205b0031:	int3	
+0x1f7205b0032:	int3	
+0x1f7205b0033:	int3	
+0x1f7205b0034:	int3	
+0x1f7205b0035:	int3	
+0x1f7205b0036:	int3	
+0x1f7205b0037:	int3	
+0x1f7205b0038:	int3	
+0x1f7205b0039:	int3	
+0x1f7205b003a:	int3	
+0x1f7205b003b:	int3	
+0x1f7205b003c:	int3	
+0x1f7205b003d:	int3	
+0x1f7205b003e:	int3	
+0x1f7205b003f:	int3	
+3128	MsMpEng.exe	0x1f727210000	0x1f72731cfff	VadS	PAGE_EXECUTE_READWRITE	269	1	Disabled	N/A	
+56 57 53 55 41 54 41 55 41 56 41 57 48 83 ec 28 VWSUATAUAVAWH..(
+4c 8d 3c 24 48 8b e9 48 8d b1 98 38 00 00 ff e2 L.<$H..H...8....
+49 8d 67 28 41 5f 41 5e 41 5d 41 5c 5d 5b 5f 5e I.g(A_A^A]A\][_^
+c3 00 00 40 00 80 00 00 00 48 89 e9 48 b8 60 a0 ...@.....H..H.`.	
+0x1f727210000:	push	rsi
+0x1f727210001:	push	rdi
+0x1f727210002:	push	rbx
+0x1f727210003:	push	rbp
+0x1f727210004:	push	r12
+0x1f727210006:	push	r13
+0x1f727210008:	push	r14
+0x1f72721000a:	push	r15
+0x1f72721000c:	sub	rsp, 0x28
+0x1f727210010:	lea	r15, [rsp]
+0x1f727210014:	mov	rbp, rcx
+0x1f727210017:	lea	rsi, [rcx + 0x3898]
+0x1f72721001e:	jmp	rdx
+0x1f727210020:	lea	rsp, [r15 + 0x28]
+0x1f727210024:	pop	r15
+0x1f727210026:	pop	r14
+0x1f727210028:	pop	r13
+0x1f72721002a:	pop	r12
+0x1f72721002c:	pop	rbp
+0x1f72721002d:	pop	rbx
+0x1f72721002e:	pop	rdi
+0x1f72721002f:	pop	rsi
+0x1f727210030:	ret	
+0x1f727210031:	add	byte ptr [rax], al
+0x1f727210033:	add	byte ptr [rax + 0x48000000], al
+0x1f72721003a:	mov	ecx, ebp
+3128	MsMpEng.exe	0x1f7274f0000	0x1f7275fcfff	VadS	PAGE_EXECUTE_READWRITE	269	1	Disabled	N/A	
+56 57 53 55 41 54 41 55 41 56 41 57 48 83 ec 28 VWSUATAUAVAWH..(
+4c 8d 3c 24 48 8b e9 48 8d b1 98 38 00 00 ff e2 L.<$H..H...8....
+49 8d 67 28 41 5f 41 5e 41 5d 41 5c 5d 5b 5f 5e I.g(A_A^A]A\][_^
+c3 00 00 40 00 80 00 00 00 48 89 e9 48 b8 60 a0 ...@.....H..H.`.	
+0x1f7274f0000:	push	rsi
+0x1f7274f0001:	push	rdi
+0x1f7274f0002:	push	rbx
+0x1f7274f0003:	push	rbp
+0x1f7274f0004:	push	r12
+0x1f7274f0006:	push	r13
+0x1f7274f0008:	push	r14
+0x1f7274f000a:	push	r15
+0x1f7274f000c:	sub	rsp, 0x28
+0x1f7274f0010:	lea	r15, [rsp]
+0x1f7274f0014:	mov	rbp, rcx
+0x1f7274f0017:	lea	rsi, [rcx + 0x3898]
+0x1f7274f001e:	jmp	rdx
+0x1f7274f0020:	lea	rsp, [r15 + 0x28]
+0x1f7274f0024:	pop	r15
+0x1f7274f0026:	pop	r14
+0x1f7274f0028:	pop	r13
+0x1f7274f002a:	pop	r12
+0x1f7274f002c:	pop	rbp
+0x1f7274f002d:	pop	rbx
+0x1f7274f002e:	pop	rdi
+0x1f7274f002f:	pop	rsi
+0x1f7274f0030:	ret	
+0x1f7274f0031:	add	byte ptr [rax], al
+0x1f7274f0033:	add	byte ptr [rax + 0x48000000], al
+0x1f7274f003a:	mov	ecx, ebp
+3128	MsMpEng.exe	0x1f727840000	0x1f72794cfff	VadS	PAGE_EXECUTE_READWRITE	269	1	Disabled	N/A	
+56 57 53 55 41 54 41 55 41 56 41 57 48 83 ec 28 VWSUATAUAVAWH..(
+4c 8d 3c 24 48 8b e9 48 8d b1 98 38 00 00 ff e2 L.<$H..H...8....
+49 8d 67 28 41 5f 41 5e 41 5d 41 5c 5d 5b 5f 5e I.g(A_A^A]A\][_^
+c3 00 00 40 00 80 00 00 00 48 89 e9 48 b8 60 a0 ...@.....H..H.`.	
+0x1f727840000:	push	rsi
+0x1f727840001:	push	rdi
+0x1f727840002:	push	rbx
+0x1f727840003:	push	rbp
+0x1f727840004:	push	r12
+0x1f727840006:	push	r13
+0x1f727840008:	push	r14
+0x1f72784000a:	push	r15
+0x1f72784000c:	sub	rsp, 0x28
+0x1f727840010:	lea	r15, [rsp]
+0x1f727840014:	mov	rbp, rcx
+0x1f727840017:	lea	rsi, [rcx + 0x3898]
+0x1f72784001e:	jmp	rdx
+0x1f727840020:	lea	rsp, [r15 + 0x28]
+0x1f727840024:	pop	r15
+0x1f727840026:	pop	r14
+0x1f727840028:	pop	r13
+0x1f72784002a:	pop	r12
+0x1f72784002c:	pop	rbp
+0x1f72784002d:	pop	rbx
+0x1f72784002e:	pop	rdi
+0x1f72784002f:	pop	rsi
+0x1f727840030:	ret	
+0x1f727840031:	add	byte ptr [rax], al
+0x1f727840033:	add	byte ptr [rax + 0x48000000], al
+0x1f72784003a:	mov	ecx, ebp
+3128	MsMpEng.exe	0x1f728ee0000	0x1f728ee0fff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	Function prologue	
+55 48 8d 2c 24 48 83 ec 20 48 8b 01 48 8b 49 08 UH.,$H.. H..H.I.
+ff d0 48 8d 65 00 5d c3 cc cc cc cc cc cc cc cc ..H.e.].........
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................	
+0x1f728ee0000:	push	rbp
+0x1f728ee0001:	lea	rbp, [rsp]
+0x1f728ee0005:	sub	rsp, 0x20
+0x1f728ee0009:	mov	rax, qword ptr [rcx]
+0x1f728ee000c:	mov	rcx, qword ptr [rcx + 8]
+0x1f728ee0010:	call	rax
+0x1f728ee0012:	lea	rsp, [rbp]
+0x1f728ee0016:	pop	rbp
+0x1f728ee0017:	ret	
+0x1f728ee0018:	int3	
+0x1f728ee0019:	int3	
+0x1f728ee001a:	int3	
+0x1f728ee001b:	int3	
+0x1f728ee001c:	int3	
+0x1f728ee001d:	int3	
+0x1f728ee001e:	int3	
+0x1f728ee001f:	int3	
+0x1f728ee0020:	int3	
+0x1f728ee0021:	int3	
+0x1f728ee0022:	int3	
+0x1f728ee0023:	int3	
+0x1f728ee0024:	int3	
+0x1f728ee0025:	int3	
+0x1f728ee0026:	int3	
+0x1f728ee0027:	int3	
+0x1f728ee0028:	int3	
+0x1f728ee0029:	int3	
+0x1f728ee002a:	int3	
+0x1f728ee002b:	int3	
+0x1f728ee002c:	int3	
+0x1f728ee002d:	int3	
+0x1f728ee002e:	int3	
+0x1f728ee002f:	int3	
+0x1f728ee0030:	int3	
+0x1f728ee0031:	int3	
+0x1f728ee0032:	int3	
+0x1f728ee0033:	int3	
+0x1f728ee0034:	int3	
+0x1f728ee0035:	int3	
+0x1f728ee0036:	int3	
+0x1f728ee0037:	int3	
+0x1f728ee0038:	int3	
+0x1f728ee0039:	int3	
+0x1f728ee003a:	int3	
+0x1f728ee003b:	int3	
+0x1f728ee003c:	int3	
+0x1f728ee003d:	int3	
+0x1f728ee003e:	int3	
+0x1f728ee003f:	int3	
+3128	MsMpEng.exe	0x1f728de0000	0x1f728de0fff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	Function prologue	
+55 48 8d 2c 24 48 83 ec 20 48 8b 01 48 8b 49 08 UH.,$H.. H..H.I.
+ff d0 48 8d 65 00 5d c3 cc cc cc cc cc cc cc cc ..H.e.].........
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................	
+0x1f728de0000:	push	rbp
+0x1f728de0001:	lea	rbp, [rsp]
+0x1f728de0005:	sub	rsp, 0x20
+0x1f728de0009:	mov	rax, qword ptr [rcx]
+0x1f728de000c:	mov	rcx, qword ptr [rcx + 8]
+0x1f728de0010:	call	rax
+0x1f728de0012:	lea	rsp, [rbp]
+0x1f728de0016:	pop	rbp
+0x1f728de0017:	ret	
+0x1f728de0018:	int3	
+0x1f728de0019:	int3	
+0x1f728de001a:	int3	
+0x1f728de001b:	int3	
+0x1f728de001c:	int3	
+0x1f728de001d:	int3	
+0x1f728de001e:	int3	
+0x1f728de001f:	int3	
+0x1f728de0020:	int3	
+0x1f728de0021:	int3	
+0x1f728de0022:	int3	
+0x1f728de0023:	int3	
+0x1f728de0024:	int3	
+0x1f728de0025:	int3	
+0x1f728de0026:	int3	
+0x1f728de0027:	int3	
+0x1f728de0028:	int3	
+0x1f728de0029:	int3	
+0x1f728de002a:	int3	
+0x1f728de002b:	int3	
+0x1f728de002c:	int3	
+0x1f728de002d:	int3	
+0x1f728de002e:	int3	
+0x1f728de002f:	int3	
+0x1f728de0030:	int3	
+0x1f728de0031:	int3	
+0x1f728de0032:	int3	
+0x1f728de0033:	int3	
+0x1f728de0034:	int3	
+0x1f728de0035:	int3	
+0x1f728de0036:	int3	
+0x1f728de0037:	int3	
+0x1f728de0038:	int3	
+0x1f728de0039:	int3	
+0x1f728de003a:	int3	
+0x1f728de003b:	int3	
+0x1f728de003c:	int3	
+0x1f728de003d:	int3	
+0x1f728de003e:	int3	
+0x1f728de003f:	int3	
+3128	MsMpEng.exe	0x1f728e00000	0x1f728e00fff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	Function prologue	
+55 48 8d 2c 24 48 83 ec 20 48 8b 01 48 8b 49 08 UH.,$H.. H..H.I.
+ff d0 48 8d 65 00 5d c3 cc cc cc cc cc cc cc cc ..H.e.].........
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................	
+0x1f728e00000:	push	rbp
+0x1f728e00001:	lea	rbp, [rsp]
+0x1f728e00005:	sub	rsp, 0x20
+0x1f728e00009:	mov	rax, qword ptr [rcx]
+0x1f728e0000c:	mov	rcx, qword ptr [rcx + 8]
+0x1f728e00010:	call	rax
+0x1f728e00012:	lea	rsp, [rbp]
+0x1f728e00016:	pop	rbp
+0x1f728e00017:	ret	
+0x1f728e00018:	int3	
+0x1f728e00019:	int3	
+0x1f728e0001a:	int3	
+0x1f728e0001b:	int3	
+0x1f728e0001c:	int3	
+0x1f728e0001d:	int3	
+0x1f728e0001e:	int3	
+0x1f728e0001f:	int3	
+0x1f728e00020:	int3	
+0x1f728e00021:	int3	
+0x1f728e00022:	int3	
+0x1f728e00023:	int3	
+0x1f728e00024:	int3	
+0x1f728e00025:	int3	
+0x1f728e00026:	int3	
+0x1f728e00027:	int3	
+0x1f728e00028:	int3	
+0x1f728e00029:	int3	
+0x1f728e0002a:	int3	
+0x1f728e0002b:	int3	
+0x1f728e0002c:	int3	
+0x1f728e0002d:	int3	
+0x1f728e0002e:	int3	
+0x1f728e0002f:	int3	
+0x1f728e00030:	int3	
+0x1f728e00031:	int3	
+0x1f728e00032:	int3	
+0x1f728e00033:	int3	
+0x1f728e00034:	int3	
+0x1f728e00035:	int3	
+0x1f728e00036:	int3	
+0x1f728e00037:	int3	
+0x1f728e00038:	int3	
+0x1f728e00039:	int3	
+0x1f728e0003a:	int3	
+0x1f728e0003b:	int3	
+0x1f728e0003c:	int3	
+0x1f728e0003d:	int3	
+0x1f728e0003e:	int3	
+0x1f728e0003f:	int3	
+3128	MsMpEng.exe	0x1f728e30000	0x1f728e31fff	VadS	PAGE_EXECUTE_READWRITE	2	1	Disabled	Function prologue	
+55 48 8d 2c 24 48 83 ec 20 48 8b 01 48 8b 49 08 UH.,$H.. H..H.I.
+ff d0 48 8d 65 00 5d c3 cc cc cc cc cc cc cc cc ..H.e.].........
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................	
+0x1f728e30000:	push	rbp
+0x1f728e30001:	lea	rbp, [rsp]
+0x1f728e30005:	sub	rsp, 0x20
+0x1f728e30009:	mov	rax, qword ptr [rcx]
+0x1f728e3000c:	mov	rcx, qword ptr [rcx + 8]
+0x1f728e30010:	call	rax
+0x1f728e30012:	lea	rsp, [rbp]
+0x1f728e30016:	pop	rbp
+0x1f728e30017:	ret	
+0x1f728e30018:	int3	
+0x1f728e30019:	int3	
+0x1f728e3001a:	int3	
+0x1f728e3001b:	int3	
+0x1f728e3001c:	int3	
+0x1f728e3001d:	int3	
+0x1f728e3001e:	int3	
+0x1f728e3001f:	int3	
+0x1f728e30020:	int3	
+0x1f728e30021:	int3	
+0x1f728e30022:	int3	
+0x1f728e30023:	int3	
+0x1f728e30024:	int3	
+0x1f728e30025:	int3	
+0x1f728e30026:	int3	
+0x1f728e30027:	int3	
+0x1f728e30028:	int3	
+0x1f728e30029:	int3	
+0x1f728e3002a:	int3	
+0x1f728e3002b:	int3	
+0x1f728e3002c:	int3	
+0x1f728e3002d:	int3	
+0x1f728e3002e:	int3	
+0x1f728e3002f:	int3	
+0x1f728e30030:	int3	
+0x1f728e30031:	int3	
+0x1f728e30032:	int3	
+0x1f728e30033:	int3	
+0x1f728e30034:	int3	
+0x1f728e30035:	int3	
+0x1f728e30036:	int3	
+0x1f728e30037:	int3	
+0x1f728e30038:	int3	
+0x1f728e30039:	int3	
+0x1f728e3003a:	int3	
+0x1f728e3003b:	int3	
+0x1f728e3003c:	int3	
+0x1f728e3003d:	int3	
+0x1f728e3003e:	int3	
+0x1f728e3003f:	int3	
+3128	MsMpEng.exe	0x1f728ec0000	0x1f728ec2fff	VadS	PAGE_EXECUTE_READWRITE	3	1	Disabled	Function prologue	
+55 48 8d 2c 24 48 83 ec 20 48 8b 01 48 8b 49 08 UH.,$H.. H..H.I.
+ff d0 48 8d 65 00 5d c3 cc cc cc cc cc cc cc cc ..H.e.].........
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................	
+0x1f728ec0000:	push	rbp
+0x1f728ec0001:	lea	rbp, [rsp]
+0x1f728ec0005:	sub	rsp, 0x20
+0x1f728ec0009:	mov	rax, qword ptr [rcx]
+0x1f728ec000c:	mov	rcx, qword ptr [rcx + 8]
+0x1f728ec0010:	call	rax
+0x1f728ec0012:	lea	rsp, [rbp]
+0x1f728ec0016:	pop	rbp
+0x1f728ec0017:	ret	
+0x1f728ec0018:	int3	
+0x1f728ec0019:	int3	
+0x1f728ec001a:	int3	
+0x1f728ec001b:	int3	
+0x1f728ec001c:	int3	
+0x1f728ec001d:	int3	
+0x1f728ec001e:	int3	
+0x1f728ec001f:	int3	
+0x1f728ec0020:	int3	
+0x1f728ec0021:	int3	
+0x1f728ec0022:	int3	
+0x1f728ec0023:	int3	
+0x1f728ec0024:	int3	
+0x1f728ec0025:	int3	
+0x1f728ec0026:	int3	
+0x1f728ec0027:	int3	
+0x1f728ec0028:	int3	
+0x1f728ec0029:	int3	
+0x1f728ec002a:	int3	
+0x1f728ec002b:	int3	
+0x1f728ec002c:	int3	
+0x1f728ec002d:	int3	
+0x1f728ec002e:	int3	
+0x1f728ec002f:	int3	
+0x1f728ec0030:	int3	
+0x1f728ec0031:	int3	
+0x1f728ec0032:	int3	
+0x1f728ec0033:	int3	
+0x1f728ec0034:	int3	
+0x1f728ec0035:	int3	
+0x1f728ec0036:	int3	
+0x1f728ec0037:	int3	
+0x1f728ec0038:	int3	
+0x1f728ec0039:	int3	
+0x1f728ec003a:	int3	
+0x1f728ec003b:	int3	
+0x1f728ec003c:	int3	
+0x1f728ec003d:	int3	
+0x1f728ec003e:	int3	
+0x1f728ec003f:	int3	
+3128	MsMpEng.exe	0x1f728fb0000	0x1f728fb1fff	VadS	PAGE_EXECUTE_READWRITE	2	1	Disabled	Function prologue	
+55 48 8d 2c 24 48 83 ec 20 48 8b 01 48 8b 49 08 UH.,$H.. H..H.I.
+ff d0 48 8d 65 00 5d c3 cc cc cc cc cc cc cc cc ..H.e.].........
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................	
+0x1f728fb0000:	push	rbp
+0x1f728fb0001:	lea	rbp, [rsp]
+0x1f728fb0005:	sub	rsp, 0x20
+0x1f728fb0009:	mov	rax, qword ptr [rcx]
+0x1f728fb000c:	mov	rcx, qword ptr [rcx + 8]
+0x1f728fb0010:	call	rax
+0x1f728fb0012:	lea	rsp, [rbp]
+0x1f728fb0016:	pop	rbp
+0x1f728fb0017:	ret	
+0x1f728fb0018:	int3	
+0x1f728fb0019:	int3	
+0x1f728fb001a:	int3	
+0x1f728fb001b:	int3	
+0x1f728fb001c:	int3	
+0x1f728fb001d:	int3	
+0x1f728fb001e:	int3	
+0x1f728fb001f:	int3	
+0x1f728fb0020:	int3	
+0x1f728fb0021:	int3	
+0x1f728fb0022:	int3	
+0x1f728fb0023:	int3	
+0x1f728fb0024:	int3	
+0x1f728fb0025:	int3	
+0x1f728fb0026:	int3	
+0x1f728fb0027:	int3	
+0x1f728fb0028:	int3	
+0x1f728fb0029:	int3	
+0x1f728fb002a:	int3	
+0x1f728fb002b:	int3	
+0x1f728fb002c:	int3	
+0x1f728fb002d:	int3	
+0x1f728fb002e:	int3	
+0x1f728fb002f:	int3	
+0x1f728fb0030:	int3	
+0x1f728fb0031:	int3	
+0x1f728fb0032:	int3	
+0x1f728fb0033:	int3	
+0x1f728fb0034:	int3	
+0x1f728fb0035:	int3	
+0x1f728fb0036:	int3	
+0x1f728fb0037:	int3	
+0x1f728fb0038:	int3	
+0x1f728fb0039:	int3	
+0x1f728fb003a:	int3	
+0x1f728fb003b:	int3	
+0x1f728fb003c:	int3	
+0x1f728fb003d:	int3	
+0x1f728fb003e:	int3	
+0x1f728fb003f:	int3	
+3128	MsMpEng.exe	0x1f729050000	0x1f729050fff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	Function prologue	
+55 48 8d 2c 24 48 83 ec 20 48 8b 01 48 8b 49 08 UH.,$H.. H..H.I.
+ff d0 48 8d 65 00 5d c3 cc cc cc cc cc cc cc cc ..H.e.].........
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................	
+0x1f729050000:	push	rbp
+0x1f729050001:	lea	rbp, [rsp]
+0x1f729050005:	sub	rsp, 0x20
+0x1f729050009:	mov	rax, qword ptr [rcx]
+0x1f72905000c:	mov	rcx, qword ptr [rcx + 8]
+0x1f729050010:	call	rax
+0x1f729050012:	lea	rsp, [rbp]
+0x1f729050016:	pop	rbp
+0x1f729050017:	ret	
+0x1f729050018:	int3	
+0x1f729050019:	int3	
+0x1f72905001a:	int3	
+0x1f72905001b:	int3	
+0x1f72905001c:	int3	
+0x1f72905001d:	int3	
+0x1f72905001e:	int3	
+0x1f72905001f:	int3	
+0x1f729050020:	int3	
+0x1f729050021:	int3	
+0x1f729050022:	int3	
+0x1f729050023:	int3	
+0x1f729050024:	int3	
+0x1f729050025:	int3	
+0x1f729050026:	int3	
+0x1f729050027:	int3	
+0x1f729050028:	int3	
+0x1f729050029:	int3	
+0x1f72905002a:	int3	
+0x1f72905002b:	int3	
+0x1f72905002c:	int3	
+0x1f72905002d:	int3	
+0x1f72905002e:	int3	
+0x1f72905002f:	int3	
+0x1f729050030:	int3	
+0x1f729050031:	int3	
+0x1f729050032:	int3	
+0x1f729050033:	int3	
+0x1f729050034:	int3	
+0x1f729050035:	int3	
+0x1f729050036:	int3	
+0x1f729050037:	int3	
+0x1f729050038:	int3	
+0x1f729050039:	int3	
+0x1f72905003a:	int3	
+0x1f72905003b:	int3	
+0x1f72905003c:	int3	
+0x1f72905003d:	int3	
+0x1f72905003e:	int3	
+0x1f72905003f:	int3	
+3128	MsMpEng.exe	0x1f729090000	0x1f72909bfff	VadS	PAGE_EXECUTE_READWRITE	12	1	Disabled	Function prologue	
+55 48 8d 2c 24 48 83 ec 20 48 8b 01 48 8b 49 08 UH.,$H.. H..H.I.
+ff d0 48 8d 65 00 5d c3 cc cc cc cc cc cc cc cc ..H.e.].........
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................	
+0x1f729090000:	push	rbp
+0x1f729090001:	lea	rbp, [rsp]
+0x1f729090005:	sub	rsp, 0x20
+0x1f729090009:	mov	rax, qword ptr [rcx]
+0x1f72909000c:	mov	rcx, qword ptr [rcx + 8]
+0x1f729090010:	call	rax
+0x1f729090012:	lea	rsp, [rbp]
+0x1f729090016:	pop	rbp
+0x1f729090017:	ret	
+0x1f729090018:	int3	
+0x1f729090019:	int3	
+0x1f72909001a:	int3	
+0x1f72909001b:	int3	
+0x1f72909001c:	int3	
+0x1f72909001d:	int3	
+0x1f72909001e:	int3	
+0x1f72909001f:	int3	
+0x1f729090020:	int3	
+0x1f729090021:	int3	
+0x1f729090022:	int3	
+0x1f729090023:	int3	
+0x1f729090024:	int3	
+0x1f729090025:	int3	
+0x1f729090026:	int3	
+0x1f729090027:	int3	
+0x1f729090028:	int3	
+0x1f729090029:	int3	
+0x1f72909002a:	int3	
+0x1f72909002b:	int3	
+0x1f72909002c:	int3	
+0x1f72909002d:	int3	
+0x1f72909002e:	int3	
+0x1f72909002f:	int3	
+0x1f729090030:	int3	
+0x1f729090031:	int3	
+0x1f729090032:	int3	
+0x1f729090033:	int3	
+0x1f729090034:	int3	
+0x1f729090035:	int3	
+0x1f729090036:	int3	
+0x1f729090037:	int3	
+0x1f729090038:	int3	
+0x1f729090039:	int3	
+0x1f72909003a:	int3	
+0x1f72909003b:	int3	
+0x1f72909003c:	int3	
+0x1f72909003d:	int3	
+0x1f72909003e:	int3	
+0x1f72909003f:	int3	
+3128	MsMpEng.exe	0x1f7301a0000	0x1f73039ffff	VadS	PAGE_EXECUTE_READWRITE	512	1	Disabled	N/A	
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc 0c 00 4e 00 0c 00 01 05 48 8b 55 28 48 8b 8d ...N.....H.U(H..	
+0x1f7301a0000:	int3	
+0x1f7301a0001:	int3	
+0x1f7301a0002:	int3	
+0x1f7301a0003:	int3	
+0x1f7301a0004:	int3	
+0x1f7301a0005:	int3	
+0x1f7301a0006:	int3	
+0x1f7301a0007:	int3	
+0x1f7301a0008:	int3	
+0x1f7301a0009:	int3	
+0x1f7301a000a:	int3	
+0x1f7301a000b:	int3	
+0x1f7301a000c:	int3	
+0x1f7301a000d:	int3	
+0x1f7301a000e:	int3	
+0x1f7301a000f:	int3	
+0x1f7301a0010:	int3	
+0x1f7301a0011:	int3	
+0x1f7301a0012:	int3	
+0x1f7301a0013:	int3	
+0x1f7301a0014:	int3	
+0x1f7301a0015:	int3	
+0x1f7301a0016:	int3	
+0x1f7301a0017:	int3	
+0x1f7301a0018:	int3	
+0x1f7301a0019:	int3	
+0x1f7301a001a:	int3	
+0x1f7301a001b:	int3	
+0x1f7301a001c:	int3	
+0x1f7301a001d:	int3	
+0x1f7301a001e:	int3	
+0x1f7301a001f:	int3	
+0x1f7301a0020:	int3	
+0x1f7301a0021:	int3	
+0x1f7301a0022:	int3	
+0x1f7301a0023:	int3	
+0x1f7301a0024:	int3	
+0x1f7301a0025:	int3	
+0x1f7301a0026:	int3	
+0x1f7301a0027:	int3	
+0x1f7301a0028:	int3	
+0x1f7301a0029:	int3	
+0x1f7301a002a:	int3	
+0x1f7301a002b:	int3	
+0x1f7301a002c:	int3	
+0x1f7301a002d:	int3	
+0x1f7301a002e:	int3	
+0x1f7301a002f:	int3	
+0x1f7301a0030:	int3	
+0x1f7301a0031:	or	al, 0
+0x1f7301a0033:	add	byte ptr [rax + r8], r9b
+0x1f7301a0037:	add	dword ptr [rip + 0x28558b48], eax
+3128	MsMpEng.exe	0x1f7300a0000	0x1f73019ffff	VadS	PAGE_EXECUTE_READWRITE	256	1	Disabled	N/A	
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc 08 00 42 00 00 00 00 05 48 8b 45 20 48 89 c2 ...B.....H.E H..	
+0x1f7300a0000:	int3	
+0x1f7300a0001:	int3	
+0x1f7300a0002:	int3	
+0x1f7300a0003:	int3	
+0x1f7300a0004:	int3	
+0x1f7300a0005:	int3	
+0x1f7300a0006:	int3	
+0x1f7300a0007:	int3	
+0x1f7300a0008:	int3	
+0x1f7300a0009:	int3	
+0x1f7300a000a:	int3	
+0x1f7300a000b:	int3	
+0x1f7300a000c:	int3	
+0x1f7300a000d:	int3	
+0x1f7300a000e:	int3	
+0x1f7300a000f:	int3	
+0x1f7300a0010:	int3	
+0x1f7300a0011:	int3	
+0x1f7300a0012:	int3	
+0x1f7300a0013:	int3	
+0x1f7300a0014:	int3	
+0x1f7300a0015:	int3	
+0x1f7300a0016:	int3	
+0x1f7300a0017:	int3	
+0x1f7300a0018:	int3	
+0x1f7300a0019:	int3	
+0x1f7300a001a:	int3	
+0x1f7300a001b:	int3	
+0x1f7300a001c:	int3	
+0x1f7300a001d:	int3	
+0x1f7300a001e:	int3	
+0x1f7300a001f:	int3	
+0x1f7300a0020:	int3	
+0x1f7300a0021:	int3	
+0x1f7300a0022:	int3	
+0x1f7300a0023:	int3	
+0x1f7300a0024:	int3	
+0x1f7300a0025:	int3	
+0x1f7300a0026:	int3	
+0x1f7300a0027:	int3	
+0x1f7300a0028:	int3	
+0x1f7300a0029:	int3	
+0x1f7300a002a:	int3	
+0x1f7300a002b:	int3	
+0x1f7300a002c:	int3	
+0x1f7300a002d:	int3	
+0x1f7300a002e:	int3	
+0x1f7300a002f:	int3	
+0x1f7300a0030:	int3	
+0x1f7300a0031:	or	byte ptr [rax], al
+0x1f7300a0033:	add	byte ptr [rax], al
+0x1f7300a0036:	add	byte ptr [rax], al
+0x1f7300a0038:	add	eax, 0x20458b48
+0x1f7300a003d:	mov	rdx, rax
+5476	SearchApp.exe	0x131c4590000	0x131c45affff	VadS	PAGE_EXECUTE_READWRITE	7	1	Disabled	N/A	
+48 89 54 24 10 48 89 4c 24 08 4c 89 44 24 18 4c H.T$.H.L$.L.D$.L
+89 4c 24 20 48 8b 41 28 48 8b 48 08 48 8b 51 50 .L$ H.A(H.H.H.QP
+48 83 e2 f8 48 8b ca 48 b8 60 00 59 c4 31 01 00 H...H..H.`.Y.1..
+00 48 2b c8 48 81 f9 70 0f 00 00 76 09 48 c7 c1 .H+.H..p...v.H..	
+0x131c4590000:	mov	qword ptr [rsp + 0x10], rdx
+0x131c4590005:	mov	qword ptr [rsp + 8], rcx
+0x131c459000a:	mov	qword ptr [rsp + 0x18], r8
+0x131c459000f:	mov	qword ptr [rsp + 0x20], r9
+0x131c4590014:	mov	rax, qword ptr [rcx + 0x28]
+0x131c4590018:	mov	rcx, qword ptr [rax + 8]
+0x131c459001c:	mov	rdx, qword ptr [rcx + 0x50]
+0x131c4590020:	and	rdx, 0xfffffffffffffff8
+0x131c4590024:	mov	rcx, rdx
+0x131c4590027:	movabs	rax, 0x131c4590060
+0x131c4590031:	sub	rcx, rax
+0x131c4590034:	cmp	rcx, 0xf70
+0x131c459003b:	jbe	0x131c4590046
+5476	SearchApp.exe	0x131d6cc0000	0x131d6d23fff	VadS	PAGE_EXECUTE_READWRITE	4	1	Disabled	N/A	
+e9 fb ff fd ef ff ff ff ff cc cc cc cc cc cc cc ................
+e9 eb 1f fe ef ff ff ff ff cc cc cc cc cc cc cc ................
+e9 db 13 fe ef ff ff ff ff cc cc cc cc cc cc cc ................
+e9 cb 01 fe ef ff ff ff ff cc cc cc cc cc cc cc ................	
+0x131d6cc0000:	jmp	0x131c6ca0000
+4596	smartscreen.ex	0x1cf67e40000	0x1cf67e5ffff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+48 89 54 24 10 48 89 4c 24 08 4c 89 44 24 18 4c H.T$.H.L$.L.D$.L
+89 4c 24 20 48 8b 41 28 48 8b 48 08 48 8b 51 50 .L$ H.A(H.H.H.QP
+48 83 e2 f8 48 8b ca 48 b8 60 00 e4 67 cf 01 00 H...H..H.`..g...
+00 48 2b c8 48 81 f9 70 0f 00 00 76 09 48 c7 c1 .H+.H..p...v.H..	
+0x1cf67e40000:	mov	qword ptr [rsp + 0x10], rdx
+0x1cf67e40005:	mov	qword ptr [rsp + 8], rcx
+0x1cf67e4000a:	mov	qword ptr [rsp + 0x18], r8
+0x1cf67e4000f:	mov	qword ptr [rsp + 0x20], r9
+0x1cf67e40014:	mov	rax, qword ptr [rcx + 0x28]
+0x1cf67e40018:	mov	rcx, qword ptr [rax + 8]
+0x1cf67e4001c:	mov	rdx, qword ptr [rcx + 0x50]
+0x1cf67e40020:	and	rdx, 0xfffffffffffffff8
+0x1cf67e40024:	mov	rcx, rdx
+0x1cf67e40027:	movabs	rax, 0x1cf67e40060
+0x1cf67e40031:	sub	rcx, rax
+0x1cf67e40034:	cmp	rcx, 0xf70
+0x1cf67e4003b:	jbe	0x1cf67e40046
+5176	powershell.exe	0x1eeeb020000	0x1eeeb02ffff	VadS	PAGE_EXECUTE_READWRITE	10	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 8e b2 f9 fd 3e a9 00 01 ............>...
+ee ff ee ff 02 00 00 00 20 01 02 eb ee 01 00 00 ........ .......
+20 01 02 eb ee 01 00 00 00 00 02 eb ee 01 00 00  ...............
+00 00 02 eb ee 01 00 00 0f 00 00 00 00 00 00 00 ................	
+0x1eeeb020000:	add	byte ptr [rax], al
+0x1eeeb020002:	add	byte ptr [rax], al
+0x1eeeb020004:	add	byte ptr [rax], al
+0x1eeeb020006:	add	byte ptr [rax], al
+5176	powershell.exe	0x1eeeaf80000	0x1eeeaf8cfff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 90 78 02 eb ee 01 00 00 .........x......
+90 78 02 eb ee 01 00 00 00 00 02 eb ee 01 00 00 .x..............
+e0 0d f8 ea ee 01 00 00 00 10 f8 ea ee 01 00 00 ................
+00 d0 f8 ea ee 01 00 00 02 00 00 00 00 00 00 00 ................	
+0x1eeeaf80000:	add	byte ptr [rax], al
+0x1eeeaf80002:	add	byte ptr [rax], al
+0x1eeeaf80004:	add	byte ptr [rax], al
+0x1eeeaf80006:	add	byte ptr [rax], al
+0x1eeeaf80008:	nop	
+0x1eeeaf80009:	js	0x1eeeaf8000d
+0x1eeeaf8000b:	jmp	0x1eeeaf7fffb
+0x1eeeaf8000d:	add	dword ptr [rax], eax
+0x1eeeaf8000f:	add	byte ptr [rax - 0x1114fd88], dl
+0x1eeeaf80015:	add	dword ptr [rax], eax
+0x1eeeaf80017:	add	byte ptr [rax], al
+0x1eeeaf80019:	add	byte ptr [rdx], al
+0x1eeeaf8001b:	jmp	0x1eeeaf8000b
+0x1eeeaf8001d:	add	dword ptr [rax], eax
+0x1eeeaf8001f:	add	al, ah
+0x1eeeaf80021:	or	eax, 0x1eeeaf8
+0x1eeeaf80026:	add	byte ptr [rax], al
+0x1eeeaf80028:	add	byte ptr [rax], dl
+0x1eeeaf8002a:	clc	
+5176	powershell.exe	0x1eeeb130000	0x1eeeb13ffff	VadS	PAGE_EXECUTE_READWRITE	2	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 4d 3f 90 78 cc fd 00 01 ........M?.x....
+ee ff ee ff 02 00 00 00 20 01 13 eb ee 01 00 00 ........ .......
+20 01 13 eb ee 01 00 00 00 00 13 eb ee 01 00 00  ...............
+00 00 13 eb ee 01 00 00 0f 00 00 00 00 00 00 00 ................	
+0x1eeeb130000:	add	byte ptr [rax], al
+0x1eeeb130002:	add	byte ptr [rax], al
+0x1eeeb130004:	add	byte ptr [rax], al
+0x1eeeb130006:	add	byte ptr [rax], al
+5176	powershell.exe	0x7df4a8bd0000	0x7df4a8bdffff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 78 0d 00 00 00 00 00 00 ........x.......
+0c 00 00 00 49 c7 c2 00 00 00 00 48 b8 10 ec 2c ....I......H...,
+bb fa 7f 00 00 ff e0 49 c7 c2 01 00 00 00 48 b8 .......I......H.
+10 ec 2c bb fa 7f 00 00 ff e0 49 c7 c2 02 00 00 ..,.......I.....	
+0x7df4a8bd0000:	add	byte ptr [rax], al
+0x7df4a8bd0002:	add	byte ptr [rax], al
+0x7df4a8bd0004:	add	byte ptr [rax], al
+0x7df4a8bd0006:	add	byte ptr [rax], al
+0x7df4a8bd0008:	js	0x7df4a8bd0017
+0x7df4a8bd000a:	add	byte ptr [rax], al
+0x7df4a8bd000c:	add	byte ptr [rax], al
+0x7df4a8bd000e:	add	byte ptr [rax], al
+0x7df4a8bd0010:	or	al, 0
+0x7df4a8bd0012:	add	byte ptr [rax], al
+0x7df4a8bd0014:	mov	r10, 0
+0x7df4a8bd001b:	movabs	rax, 0x7ffabb2cec10
+0x7df4a8bd0025:	jmp	rax
+0x7df4a8bd0027:	mov	r10, 1
+0x7df4a8bd002e:	movabs	rax, 0x7ffabb2cec10
+0x7df4a8bd0038:	jmp	rax
+5176	powershell.exe	0x7df4a8be0000	0x7df4a8c7ffff	VadS	PAGE_EXECUTE_READWRITE	2	1	Disabled	N/A	
+d8 ff ff ff ff ff ff ff 08 00 00 00 00 00 00 00 ................
+01 00 00 00 00 00 00 00 00 02 0e 03 38 00 00 00 ............8...
+68 01 04 08 0c 00 00 00 b0 0b b8 b9 fa 7f 00 00 h...............
+00 10 b3 b9 fa 7f 00 00 08 53 ca b9 fa 7f 00 00 .........S......	
+0x7df4a8be0000:	fdivr	st(7)
